@@ -1,0 +1,37 @@
+# AgentFactory — Swarm Configuration
+#
+# Defines the roles and their configurations for the multi-agent Swarm system.
+# Each role can reference a YAML file in config/roles/ or embed its config inline.
+
+project:
+  name: agentfactory
+  version: "0.1.0"
+
+# Global defaults applied to all roles unless overridden.
+defaults:
+  runtime: cline
+  model: ""  # e.g. "anthropic/claude-sonnet-4-20250514"
+
+# Role definitions.
+# Each role can either:
+#   (a) Point to a YAML file via `config_file`, or
+#   (b) Embed `runtime`, `model`, and `system_prompt` inline.
+roles:
+  architect:
+    config_file: "config/roles/architect.yaml"
+  developer:
+    config_file: "config/roles/developer.yaml"
+  devops:
+    config_file: "config/roles/devops.yaml"
+
+# Swarm orchestration settings.
+swarm:
+  # Execution order: which roles run and in what sequence.
+  pipeline:
+    - architect
+    - developer
+    - devops
+  # Maximum turns per agent before escalation.
+  max_turns_per_role: 50
+  # Whether to halt on first role failure.
+  fail_fast: true

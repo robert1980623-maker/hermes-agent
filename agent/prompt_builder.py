@@ -189,6 +189,17 @@ TOOL_USE_ENFORCEMENT_GUIDANCE = (
 # Add new patterns here when a model family needs explicit steering.
 TOOL_USE_ENFORCEMENT_MODELS = ("gpt", "codex", "gemini", "gemma", "grok")
 
+# Harness mode — Karpathy's CLAUDE.md principles distilled into behavior rules.
+# Injected into system prompt to prevent over-engineering, silent assumptions,
+# and "helpful" edits that break existing code.
+HARNESS_PRINCIPLES_GUIDANCE = (
+    "# Harness Mode: Code Quality Principles\n"
+    "1. **Think Before Coding**: State assumptions. Ask if unclear. Don't hide confusion.\n"
+    "2. **Simplicity First**: Minimum code that solves the problem. No speculative features, no single-use abstractions.\n"
+    "3. **Surgical Changes**: Touch ONLY requested code. Match existing style. Clean YOUR mess only (orphan imports/vars).\n"
+    "4. **Goal-Driven**: Transform tasks into verifiable goals (e.g., pass tests). Loop until met."
+)
+
 # OpenAI GPT/Codex-specific execution guidance.  Addresses known failure modes
 # where GPT models abandon work on partial results, skip prerequisite lookups,
 # hallucinate instead of using tools, and declare "done" without verification.

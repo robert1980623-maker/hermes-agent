@@ -1,0 +1,4 @@
+# Health check dependencies only - minimal for container
+fastapi>=0.115.0,<1
+uvicorn[standard]>=0.30.0,<1
+requests>=2.33.0,<3

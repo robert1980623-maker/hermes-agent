@@ -1203,6 +1203,8 @@ class AIAgent:
         if not isinstance(_agent_section, dict):
             _agent_section = {}
         self._tool_use_enforcement = _agent_section.get("tool_use_enforcement", "auto")
+        # Harness mode (Karpathy's principles): true, false, or "auto" (default: on for coding toolsets)
+        self._harness_mode = _agent_section.get("harness_mode", "auto")
 
         # Initialize context compressor for automatic context management
         # Compresses conversation when approaching model's context limit
@@ -3113,6 +3115,19 @@ class AIAgent:
                 # prerequisite checks, verification, anti-hallucination).
                 if "gpt" in _model_lower or "codex" in _model_lower:
                     prompt_parts.append(OPENAI_MODEL_EXECUTION_GUIDANCE)
+
+        # Harness mode (Karpathy's principles): think-first, simplicity, surgical edits.
+        # Enabled when agent.harness_mode is true, or "auto" with coding tools present.
+        _harness = getattr(self, "_harness_mode", "auto")
+        if _harness == "auto":
+            _coding_tools = {"terminal", "execute_code", "patch", "read_file", "write_file", "search_files"}
+            _inject_harness = bool(_coding_tools & self.valid_tool_names)
+        else:
+            _inject_harness = bool(_harness)
+
+        if _inject_harness:
+            from agent.prompt_builder import HARNESS_PRINCIPLES_GUIDANCE
+            prompt_parts.append(HARNESS_PRINCIPLES_GUIDANCE)
 
         # so it can refer the user to them rather than reinventing answers.
 

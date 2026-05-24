@@ -1,0 +1,50 @@
+version: "3.8"
+
+services:
+  health-check:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - HERMES_TOKEN=${HERMES_TOKEN:-}
+      - PORTAL_URL=${PORTAL_URL:-http://localhost:8080/health}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/healthz')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+    networks:
+      - health-network
+
+  # Optional: Portal mock for local development
+  portal-mock:
+    image: python:3.11-alpine
+    command: python -c "from http.server import HTTPServer; import json; from http.server import BaseHTTPRequestHandler
+class H(BaseHTTPRequestHandler):
+  def do_GET(self):
+    if self.path == '/health':
+      self.send_response(200)
+      self.send_header('Content-Type', 'application/json')
+      self.end_headers()
+      self.wfile.write(json.dumps({'status': 'ok'}).encode())
+    else:
+      self.send_response(404)
+      self.end_headers()
+HTTPServer(('0.0.0.0', 8081), H).serve_forever()"
+    ports:
+      - "8081:8081"
+    networks:
+      - health-network
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:8081/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+networks:
+  health-network:
+    driver: bridge

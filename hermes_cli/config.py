@@ -54,6 +54,7 @@ _EXTRA_ENV_KEYS = frozenset({
 })
 import yaml
 
+from hermes_cli.agent_config import AgentConfig
 from hermes_cli.colors import Colors, color
 from hermes_cli.default_soul import DEFAULT_SOUL_MD
 
@@ -355,8 +356,16 @@ DEFAULT_CONFIG = {
         # threshold before escalating to a full timeout.  The warning fires
         # once per run and does not interrupt the agent.  0 = disable warning.
         "gateway_timeout_warning": 900,
+        # Harness mode (Karpathy's CLAUDE.md principles): inject behavioral
+        # constraints for coding tasks (think-first, simplicity, surgical edits,
+        # goal-driven execution). Values: true (always on), false (always off),
+        # or "auto" (on for coding-focused toolsets only).
+        "harness_mode": "auto",
     },
-    
+
+    # Per-agent instance configurations (named agents).
+    "agents": {},
+
     "terminal": {
         "backend": "local",
         "modal_mode": "auto",

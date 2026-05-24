@@ -349,6 +349,7 @@ class _WriteQueue:
         conn = getattr(self._local, "conn", None)
         if conn is None:
             conn = sqlite3.connect(str(self._db_path), timeout=30)
+            conn.execute("PRAGMA journal_mode=WAL")
             conn.row_factory = sqlite3.Row
             self._local.conn = conn
         return conn
