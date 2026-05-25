@@ -2,7 +2,8 @@
 from __future__ import annotations
 
 from .base import BaseAgent, AgentResult
+from .cli_agent_worker import CLIAgentWorker
 from .deep_agent_worker import DeepAgentWorker
 from .system_worker import SystemWorker
 
-__all__ = ["BaseAgent", "AgentResult", "DeepAgentWorker", "SystemWorker"]
+__all__ = ["BaseAgent", "AgentResult", "CLIAgentWorker", "DeepAgentWorker", "SystemWorker"]
