@@ -4396,6 +4396,21 @@ def cmd_logs(args):
     )
 
 
+def cmd_agent(args):
+    """Agent management — delegates to Click-based agent_cli group."""
+    from hermes_cli.agent_cli import agent as agent_group
+    import click
+
+    sub_args = getattr(args, "agent_args", None) or []
+
+    # Show group help if no subcommand given or --help requested
+    if not sub_args or sub_args[0] in ("--help", "-h"):
+        click.echo(agent_group.get_help(click.Context(agent_group)))
+        return
+
+    agent_group(sub_args, standalone_mode=True)
+
+
 def main():
     """Main entry point for hermes CLI."""
     parser = argparse.ArgumentParser(
@@ -5865,8 +5880,37 @@ Examples:
     logs_parser.set_defaults(func=cmd_logs)
 
     # =========================================================================
+    # agent command — delegates to Click-based agent_cli
+    # =========================================================================
+    agent_parser = subparsers.add_parser(
+        "agent",
+        help="Manage and run AI agents",
+        description="List, inspect, and run configured AI agents",
+        add_help=False,
+    )
+    agent_parser.add_argument(
+        "agent_args", nargs=argparse.REMAINDER,
+        help="Agent subcommand and arguments (list, info <name>, run <name> <prompt>)",
+    )
+    agent_parser.set_defaults(func=cmd_agent)
+
+    # =========================================================================
     # Parse and execute
     # =========================================================================
+    # ── Agent CLI delegation ────────────────────────────────────────────
+    # Intercept 'hermes agent' early so Click can handle all sub-arguments
+    # (including --help) without argparse interference.
+    _agent_argv = sys.argv[1:]
+    if _agent_argv and _agent_argv[0] == "agent":
+        from hermes_cli.agent_cli import agent as _agent_group
+        import click as _click
+        _rest = _agent_argv[1:]
+        if not _rest or _rest[0] in ("--help", "-h"):
+            _click.echo(_agent_group.get_help(_click.Context(_agent_group)))
+            sys.exit(0)
+        _agent_group(_rest, standalone_mode=True)
+        sys.exit(0)
+
     # Pre-process argv so unquoted multi-word session names after -c / -r
     # are merged into a single token before argparse sees them.
     # e.g. ``hermes -c Pokemon Agent Dev`` → ``hermes -c 'Pokemon Agent Dev'``
