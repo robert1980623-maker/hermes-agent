@@ -9837,7 +9837,13 @@ class AIAgent:
                 
                 else:
                     # No tool calls - this is the final response
-                    final_response = assistant_message.content or ""
+                    # Strip inline <think>...</think> blocks so reasoning from providers
+                    # that embed thinking in content (e.g. minimax-cn MiniMax-M3) does
+                    # not leak to messaging platforms.  Matches the pattern already
+                    # used by the fallback content path below and by the streaming
+                    # display path; reasoning itself is still captured in the
+                    # messages[].reasoning field by _build_assistant_message.
+                    final_response = self._strip_think_blocks(assistant_message.content or "").strip()
                     
                     # Check if response only has think block with no actual content after it
                     if not self._has_content_after_think_block(final_response):
