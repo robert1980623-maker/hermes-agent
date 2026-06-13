@@ -58,3 +58,6 @@ mini-swe-agent/
 # Nix
 .direnv/
 result
+
+# Local shell/tooling history snapshots (should never be committed)
+.history/
