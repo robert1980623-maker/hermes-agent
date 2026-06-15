@@ -1,0 +1,2018 @@
+[
+  {
+    "id": "2501.10332",
+    "title": "Agent4Edu: Generating Learner Response Data by Generative Agents for Intelligent Education Systems",
+    "link": "https://arxiv.org/abs/2501.10332",
+    "abstract": "arXiv:2501.10332v2 Announce Type: replace-cross \nAbstract: Personalized learning represents a promising educational strategy within intelligent educational systems, aiming to enhance learners' practice efficiency. However, the discrepancy between offline metrics and online performance significantly ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2505.05968",
+    "title": "Offline Multi-agent Reinforcement Learning via Sequential Score Decomposition",
+    "link": "https://arxiv.org/abs/2505.05968",
+    "abstract": "arXiv:2505.05968v3 Announce Type: replace \nAbstract: Offline cooperative multi-agent reinforcement learning (MARL) faces unique challenges due to distributional shifts, particularly stemming from the high dimensionality of joint action spaces and the presence of out-of-distribution joint action sele",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 5
+  },
+  {
+    "id": "2505.13820",
+    "title": "Structured Agent Distillation for Large Language Model",
+    "link": "https://arxiv.org/abs/2505.13820",
+    "abstract": "arXiv:2505.13820v5 Announce Type: replace-cross \nAbstract: Large language models (LLMs) exhibit strong capabilities as decision-making agents by interleaving reasoning and actions, as seen in ReAct-style frameworks. Yet, their practical deployment is constrained by high inference costs and large mod",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2506.06254",
+    "title": "PersonaAgent: Bridging Memory and Action for Personalized LLM Agents",
+    "link": "https://arxiv.org/abs/2506.06254",
+    "abstract": "arXiv:2506.06254v2 Announce Type: replace \nAbstract: Large Language Model (LLM) empowered agents have recently emerged as advanced paradigms that exhibit impressive capabilities in a wide range of domains and tasks. Despite their potential, current LLM agents often adopt a one-size-fits-all approach",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2508.05614",
+    "title": "GroundAct: Can LLM Agents Ground Actions in Environmental States?",
+    "link": "https://arxiv.org/abs/2508.05614",
+    "abstract": "arXiv:2508.05614v2 Announce Type: replace-cross \nAbstract: LLM agents achieve 85-96% success on tasks where instructions fully specify the action, but drop to 29-53% when action feasibility depends on environmental state that the instruction does not mention. We argue that this gap reflects a missin",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2509.22504",
+    "title": "Estimating the Empowerment of Language Model Agents",
+    "link": "https://arxiv.org/abs/2509.22504",
+    "abstract": "arXiv:2509.22504v3 Announce Type: replace \nAbstract: As language model (LM) agents become increasingly capable and adopted in real-world applications, there is a growing need for scalable evaluation frameworks beyond costly, manually designed benchmarks. We propose information-theoretic evaluation b",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2509.23694",
+    "title": "SafeSearch: Automated Red-Teaming of LLM-Based Search Agents",
+    "link": "https://arxiv.org/abs/2509.23694",
+    "abstract": "arXiv:2509.23694v5 Announce Type: replace \nAbstract: Search agents connect LLMs to the Internet, enabling them to access broader and more up-to-date information. However, this also introduces a new threat surface: unreliable search results can mislead agents into producing unsafe outputs. Real-world",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2510.10185",
+    "title": "Auditing medical multi-agent AI reveals risks of false consensus",
+    "link": "https://arxiv.org/abs/2510.10185",
+    "abstract": "arXiv:2510.10185v3 Announce Type: replace \nAbstract: Large language models are increasingly being assembled into medical multi-agent systems that emulate multidisciplinary consultation through specialist roles, peer review and consensus formation. In clinical decision support, however, apparent cons",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2510.14150",
+    "title": "CodeEvolve: an open source evolutionary coding agent for algorithmic discovery and optimization",
+    "link": "https://arxiv.org/abs/2510.14150",
+    "abstract": "arXiv:2510.14150v5 Announce Type: replace \nAbstract: We introduce CodeEvolve, an open-source framework that couples large language models with island-based evolutionary search for end-to-end algorithmic discovery. CodeEvolve integrates inspiration-based crossover, meta-prompting, and depth-based ref",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2510.26270",
+    "title": "Graph-Enhanced Policy Optimization in LLM Agent Training",
+    "link": "https://arxiv.org/abs/2510.26270",
+    "abstract": "arXiv:2510.26270v2 Announce Type: replace \nAbstract: Multi-step LLM agents in interactive environments represent a crucial step toward long-horizon decision-making. To train such agents, group-based reinforcement learning is widely adopted, which reinforces trajectories with higher relative performa",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2511.14584",
+    "title": "ReflexGrad: Within-Episode Failure Recovery in LLM Agents via Progress-Gated Dual-Process Routing",
+    "link": "https://arxiv.org/abs/2511.14584",
+    "abstract": "arXiv:2511.14584v4 Announce Type: replace-cross \nAbstract: We present ReflexGrad, a dual-process architecture for within-episode failure recovery in LLM agents without demonstrations. When agents commit to a wrong approach early and exhaust the step budget, the post-failure trajectory contains the i",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2511.22884",
+    "title": "InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents",
+    "link": "https://arxiv.org/abs/2511.22884",
+    "abstract": "arXiv:2511.22884v2 Announce Type: replace \nAbstract: Data analysis has become an indispensable part of scientific research. To discover the latent knowledge and insights hidden within massive datasets, we need to perform deep exploratory analysis to realize their full value. With the advent of large",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2512.03109",
+    "title": "E-valuator: Reliable Agent Verifiers with Sequential Hypothesis Testing",
+    "link": "https://arxiv.org/abs/2512.03109",
+    "abstract": "arXiv:2512.03109v2 Announce Type: replace-cross \nAbstract: Agentic AI systems execute a sequence of actions, such as reasoning steps or tool calls, in response to a user prompt. To evaluate the success of their trajectories, researchers have developed verifiers, such as LLM judges and process-reward",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2512.07588",
+    "title": "An Agent-Centric Dynamical Systems Perspective on Multi-Agent Reinforcement Learning",
+    "link": "https://arxiv.org/abs/2512.07588",
+    "abstract": "arXiv:2512.07588v2 Announce Type: replace \nAbstract: Analysing learning in Multi-Agent Reinforcement Learning (MARL) environments is challenging, in particular with respect to \\textit{individual} decision-making. Practitioners frequently struggle to compare training runs due to the inherent stochast",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2512.15374",
+    "title": "SCOPE: Prompt Evolution for Enhancing Agent Effectiveness",
+    "link": "https://arxiv.org/abs/2512.15374",
+    "abstract": "arXiv:2512.15374v2 Announce Type: replace \nAbstract: Large Language Model (LLM) agents are increasingly deployed in environments that generate massive, dynamic contexts. However, a critical bottleneck remains: while agents have access to this context, their static prompts lack the mechanisms to mana",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2601.04505",
+    "title": "CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts",
+    "link": "https://arxiv.org/abs/2601.04505",
+    "abstract": "arXiv:2601.04505v3 Announce Type: replace-cross \nAbstract: Generating accurate circuit schematics from high-level natural language descriptions remains a persistent challenge in electronic design automation (EDA), as large language models (LLMs) frequently hallucinate components, violate strict phys",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2601.04716",
+    "title": "Identifying and Mitigating Bottlenecks in Role-Playing Agents: A Systematic Study of Disentangling Character Profile Axes",
+    "link": "https://arxiv.org/abs/2601.04716",
+    "abstract": "arXiv:2601.04716v3 Announce Type: replace \nAbstract: While Large Language Model (LLM) role-playing agents have advanced rapidly, it remains unclear which profile elements genuinely drive role-playing quality. To bridge this gap, we introduce a systematic diagnostic framework that disentangles the im",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2602.00994",
+    "title": "Reasoning and Tool-use Compete in Agentic RL:From Quantifying Interference to Disentangled Tuning",
+    "link": "https://arxiv.org/abs/2602.00994",
+    "abstract": "arXiv:2602.00994v2 Announce Type: replace \nAbstract: Agentic Reinforcement Learning (ARL) trains large language models to interleave reasoning with external tool execution to solve complex tasks. Most existing ARL methods train a single set of parameters to support both reasoning and tool-use behavi",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2602.01869",
+    "title": "Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents",
+    "link": "https://arxiv.org/abs/2602.01869",
+    "abstract": "arXiv:2602.01869v3 Announce Type: replace \nAbstract: LLM-driven agents excel at sequential decision-making but often rely on on-the-fly reasoning, re-deriving solutions even in recurring scenarios. This insufficient experience reuse leads to computational redundancy and instability. To bridge this g",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2602.02751",
+    "title": "Scaling Small Agents Through Strategy Auctions",
+    "link": "https://arxiv.org/abs/2602.02751",
+    "abstract": "arXiv:2602.02751v2 Announce Type: replace-cross \nAbstract: Small language models are increasingly viewed as a promising, cost-effective approach to agentic AI, with proponents claiming they are sufficiently capable for agentic workflows. However, while smaller agents can closely match larger ones on",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2602.02849",
+    "title": "AutoSizer: Automatic Sizing of Analog and Mixed-Signal Circuits via Large Language Model (LLM) Agents",
+    "link": "https://arxiv.org/abs/2602.02849",
+    "abstract": "arXiv:2602.02849v2 Announce Type: replace \nAbstract: The design of Analog and Mixed-Signal (AMS) integrated circuits remains heavily reliant on expert knowledge, with transistor sizing a major bottleneck due to nonlinear behavior, high-dimensional design spaces, and strict performance constraints. E",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2602.06025",
+    "title": "Learning Query-Aware Budget-Tier Routing for Runtime Agent Memory",
+    "link": "https://arxiv.org/abs/2602.06025",
+    "abstract": "arXiv:2602.06025v3 Announce Type: replace \nAbstract: Memory is increasingly central to Large Language Model (LLM) agents operating beyond a single context window, yet most existing systems rely on offline, query-agnostic memory construction that can be inefficient and may discard query-critical info",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2602.08013",
+    "title": "Small Agent Group is the Future of Digital Health",
+    "link": "https://arxiv.org/abs/2602.08013",
+    "abstract": "arXiv:2602.08013v2 Announce Type: replace \nAbstract: The rapid adoption of large language models (LLMs) in digital health has been driven by a \"scaling-first\" philosophy, i.e., the assumption that clinical intelligence increases with model size and data. However, real-world clinical needs include no",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2602.08567",
+    "title": "ValueFlow: Measuring the Propagation of Value Perturbations in Multi-Agent LLM Systems",
+    "link": "https://arxiv.org/abs/2602.08567",
+    "abstract": "arXiv:2602.08567v2 Announce Type: replace \nAbstract: Multi-agent large language model (LLM) systems increasingly consist of agents that observe and respond to one another's outputs. While value alignment is typically evaluated for isolated models, how value perturbations propagate through agent inte",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2602.15198",
+    "title": "Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems",
+    "link": "https://arxiv.org/abs/2602.15198",
+    "abstract": "arXiv:2602.15198v2 Announce Type: replace-cross \nAbstract: Multi-agent systems, where LLM agents communicate through free-form language, enable sophisticated coordination for solving complex cooperative tasks. This surfaces a unique safety problem when a group of agents forms a coalition and collude",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2602.15382",
+    "title": "The Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems",
+    "link": "https://arxiv.org/abs/2602.15382",
+    "abstract": "arXiv:2602.15382v2 Announce Type: replace-cross \nAbstract: Multi-Agent Systems (MAS) powered by Large Language Models have unlocked advanced collaborative reasoning, yet they remain bottlenecked by discrete text communication, which imposes runtime overhead and information quantization loss. While l",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 5
+  },
+  {
+    "id": "2602.17003",
+    "title": "Persona2Web: Benchmarking Personalized Web Agents for Contextual Reasoning with User History",
+    "link": "https://arxiv.org/abs/2602.17003",
+    "abstract": "arXiv:2602.17003v3 Announce Type: replace \nAbstract: Large language models have advanced web agents, yet current agents lack personalization capabilities. Since users rarely specify every detail of their intent, practical web agents must be able to interpret ambiguous queries by inferring user prefe",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2602.23258",
+    "title": "AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject Pruning",
+    "link": "https://arxiv.org/abs/2602.23258",
+    "abstract": "arXiv:2602.23258v2 Announce Type: replace \nAbstract: While Multi-Agent Systems (MAS) excel in complex reasoning, they suffer from the cascading impact of erroneous information from individual agents. Current solutions often resort to rigid structural engineering or expensive fine-tuning, limiting th",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2603.14864",
+    "title": "Shopping Companion: Benchmarking and Training LLM Agents for Long-Horizon Preference-Grounded E-Commerce Tasks",
+    "link": "https://arxiv.org/abs/2603.14864",
+    "abstract": "arXiv:2603.14864v3 Announce Type: replace \nAbstract: In e-commerce, LLM agents show promise for shopping tasks such as recommendations, budget management, and bundle deals, where accurately capturing user preferences from long-horizon conversations is critical. However, progress is limited by two ke",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2603.18859",
+    "title": "RewardFlow: Topology-Aware Reward Propagation on State Graphs for Agentic RL with Large Language Models",
+    "link": "https://arxiv.org/abs/2603.18859",
+    "abstract": "arXiv:2603.18859v2 Announce Type: replace \nAbstract: Reinforcement learning (RL) shows promise for enhancing LLM agentic reasoning, yet sparse terminal rewards hinder fine-grained optimization. Process reward modeling offers an alternative but incurs high computational costs, reward hacking risks, a",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2603.26182",
+    "title": "ClinicalAgents: Multi-Agent Orchestration for Clinical Decision Making with Dual-Memory",
+    "link": "https://arxiv.org/abs/2603.26182",
+    "abstract": "arXiv:2603.26182v2 Announce Type: replace \nAbstract: While Large Language Models (LLMs) have demonstrated potential in healthcare, they often struggle with the complex, non-linear reasoning required for accurate clinical diagnosis. Existing methods typically rely on static, linear mappings from symp",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2603.27150",
+    "title": "MediHive: A Decentralized Agent Collective for Medical Reasoning",
+    "link": "https://arxiv.org/abs/2603.27150",
+    "abstract": "arXiv:2603.27150v2 Announce Type: replace \nAbstract: Large language models (LLMs) have revolutionized medical reasoning tasks, yet single-agent systems often falter on complex, interdisciplinary problems requiring robust handling of uncertainty and conflicting evidence. Multi-agent systems (MAS) lev",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2604.03430",
+    "title": "Scaling Multi-agent Systems: A Smart Middleware for Improving Agent Interactions",
+    "link": "https://arxiv.org/abs/2604.03430",
+    "abstract": "arXiv:2604.03430v2 Announce Type: replace \nAbstract: As Large Language Model (LLM) based Multi-Agent Systems (MAS) evolve from experimental pilots to complex, persistent ecosystems, the limitations of direct agent-to-agent communication have become increasingly apparent. Current architectures suffer",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2604.05157",
+    "title": "IntentScore: Intent-Conditioned Action Evaluation for Computer-Use Agents",
+    "link": "https://arxiv.org/abs/2604.05157",
+    "abstract": "arXiv:2604.05157v3 Announce Type: replace \nAbstract: Computer-Use Agents (CUAs) leverage large language models to execute GUI operations on desktop environments, yet they generate actions without evaluating action quality, leading to irreversible errors that cascade through subsequent steps. We prop",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2604.06811",
+    "title": "SkillTrojan: Backdoor Attacks on Skill-Based Agent Systems",
+    "link": "https://arxiv.org/abs/2604.06811",
+    "abstract": "arXiv:2604.06811v2 Announce Type: replace-cross \nAbstract: Skill-based agent systems tackle complex tasks by composing reusable skills, improving modularity and scalability while introducing a largely unexamined security attack surface. We propose SkillTrojan, a backdoor attack that targets skill im",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2604.07789",
+    "title": "ORACLE-SWE: Quantifying the Contribution of Oracle Information Signals on SWE Agents",
+    "link": "https://arxiv.org/abs/2604.07789",
+    "abstract": "arXiv:2604.07789v2 Announce Type: replace \nAbstract: Recent advances in language model (LM) agents have significantly improved automated software engineering (SWE). Prior work has proposed various agentic workflows and training strategies as well as analyzed failure modes of agentic systems on SWE t",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2604.11088",
+    "title": "Guardrails Beat Guidance: A Large-Scale Study of Rules, Skills, and Persistent Configuration for Coding Agents",
+    "link": "https://arxiv.org/abs/2604.11088",
+    "abstract": "arXiv:2604.11088v2 Announce Type: replace \nAbstract: Random rules improve a coding agent's task performance as much as expert-curated ones (both $+13.8$pp on a discriminative subset of SWE-bench Verified), and in our data every individually beneficial rule is a negative constraint (\"do not refactor ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2604.12772",
+    "title": "A Multi-Agent Feedback System for Detecting and Describing News Events in Satellite Imagery",
+    "link": "https://arxiv.org/abs/2604.12772",
+    "abstract": "arXiv:2604.12772v2 Announce Type: replace-cross \nAbstract: Changes in satellite imagery often occur over multiple time steps. Despite the emergence of bi-temporal change captioning datasets, there is a lack of multi-temporal event captioning datasets (at least two images per sequence) in remote sens",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2604.18235",
+    "title": "Negative Advantages Is a Double-Edged Sword: Calibrating advantages in GRPO for Search Agents",
+    "link": "https://arxiv.org/abs/2604.18235",
+    "abstract": "arXiv:2604.18235v2 Announce Type: replace \nAbstract: Search agents achieve strong question-answering performance through multi-turn interactions with search engines, with Group Relative Policy Optimization (GRPO) being a widely used training algorithm. However, GRPO-style algorithms still face sever",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2604.18847",
+    "title": "Human-Guided Harm Recovery for Computer Use Agents",
+    "link": "https://arxiv.org/abs/2604.18847",
+    "abstract": "arXiv:2604.18847v2 Announce Type: replace \nAbstract: As LM agents gain the ability to execute actions on real computer systems, we need ways to not only prevent harmful actions at scale but also effectively remediate harm when prevention fails. We formalize a solution to this neglected challenge in ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2604.26645",
+    "title": "SciHorizon-DataEVA: An Agentic System for AI-Readiness Evaluation of Heterogeneous Scientific Data",
+    "link": "https://arxiv.org/abs/2604.26645",
+    "abstract": "arXiv:2604.26645v2 Announce Type: replace \nAbstract: AI-for-Science (AI4Science) is increasingly transforming scientific discovery by embedding machine learning models into prediction, simulation, and hypothesis generation workflows across domains. However, the effectiveness of these models is funda",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.09823",
+    "title": "CalBench: Evaluating Coordination-Privacy Trade-offs in Multi-Agent LLMs",
+    "link": "https://arxiv.org/abs/2605.09823",
+    "abstract": "arXiv:2605.09823v2 Announce Type: replace-cross \nAbstract: Personal AI assistants are beginning to act as delegates with access to calendars, inboxes, and user preferences. Calendar scheduling makes the trust problem concrete: an assistant must coordinate with other assistants while deciding what to",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.11374",
+    "title": "Test-Time Compute for Dense Retrieval: Agentic Program Generation with Frozen Embedding Models",
+    "link": "https://arxiv.org/abs/2605.11374",
+    "abstract": "arXiv:2605.11374v4 Announce Type: replace-cross \nAbstract: Test-time compute is widely believed to benefit only large reasoning models. We show it also helps small embedding models. Since modern embedding models are distilled from LLM backbones, a frozen encoder should benefit from extra inference c",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.12015",
+    "title": "SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces",
+    "link": "https://arxiv.org/abs/2605.12015",
+    "abstract": "arXiv:2605.12015v2 Announce Type: replace-cross \nAbstract: Reusable skills are becoming a common interface for extending large language model agents, packaging procedural guidance with access to files, tools, memory, and execution environments. However, this modularity introduces attack surfaces tha",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.12925",
+    "title": "AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation",
+    "link": "https://arxiv.org/abs/2605.12925",
+    "abstract": "arXiv:2605.12925v2 Announce Type: replace-cross \nAbstract: Here is the updated abstract:\n  Evaluation of software engineering (SWE) agents is dominated by a binary signal: whether the final patch passes the tests. This outcome-only view treats a principled solution and a chaotic trial-and-error proc",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.13841",
+    "title": "EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents",
+    "link": "https://arxiv.org/abs/2605.13841",
+    "abstract": "arXiv:2605.13841v2 Announce Type: replace-cross \nAbstract: Voice agents, artificial intelligence systems that conduct spoken conversations to complete tasks, are increasingly deployed across enterprise applications. However, no existing benchmark jointly addresses two core evaluation challenges: gen",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.14113",
+    "title": "ProtoMedAgent: Multimodal Clinical Interpretability via Privacy-Aware Agentic Workflows",
+    "link": "https://arxiv.org/abs/2605.14113",
+    "abstract": "arXiv:2605.14113v2 Announce Type: replace-cross \nAbstract: While interpretable prototype networks offer compelling case-based reasoning for clinical diagnostics, their raw continuous outputs lack the semantic structure required for medical documentation. Bridging this gap via standard Retrieval-Augm",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.14241",
+    "title": "Latency-Quality Routing for Functionally Equivalent Tools in LLM Agents",
+    "link": "https://arxiv.org/abs/2605.14241",
+    "abstract": "arXiv:2605.14241v2 Announce Type: replace \nAbstract: Tool-augmented LLM agents increasingly access the same tool type through multiple functionally equivalent providers, such as web-search APIs, retrievers, or LLM backends exposed behind a shared interface. This creates a provider-routing problem un",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 5
+  },
+  {
+    "id": "2605.17448",
+    "title": "Self-Improving CAD Generation Agents with Finite Element Analysis as Feedback",
+    "link": "https://arxiv.org/abs/2605.17448",
+    "abstract": "arXiv:2605.17448v2 Announce Type: replace-cross \nAbstract: Computer-aided design (CAD) is the backbone of modern industrial design, yet learned CAD generators still fall short of real engineering pipelines: they neither iterate like engineers nor evaluate what engineering requires. Prior work has tr",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.26114",
+    "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+    "link": "https://arxiv.org/abs/2605.26114",
+    "abstract": "arXiv:2605.26114v2 Announce Type: replace-cross \nAbstract: We present MobileGym, a browser-hosted, lightweight, fully controllable environment for everyday mobile use, targeting interaction fidelity without replicating proprietary backends. It enables two capabilities previously out of reach for eve",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.26186",
+    "title": "SetupX: Can LLM Agents Learn from Past Failures in Functionality-Correct Code Repository Setup?",
+    "link": "https://arxiv.org/abs/2605.26186",
+    "abstract": "arXiv:2605.26186v2 Announce Type: replace-cross \nAbstract: Functionality-correct repository setup aims to configure execution environments (e.g., dependencies, build scripts) to successfully execute a repository's documented features. It presents significant challenges due to diverse, repository-spe",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27375",
+    "title": "LCO: LLM-based Constraint Optimization for Safer Agentic LLMs in Real-world Tasks",
+    "link": "https://arxiv.org/abs/2605.27375",
+    "abstract": "arXiv:2605.27375v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly acting as autonomous agents, but their continuous interaction with the environment can lead to in-context reward hacking (ICRH), a phenomenon where LLMs iteratively optimize their behavior to maximize prox",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27378",
+    "title": "OralAgent: Integrating Reasoning, Tools, and Knowledge for Interactive Dental Image Analysis",
+    "link": "https://arxiv.org/abs/2605.27378",
+    "abstract": "arXiv:2605.27378v1 Announce Type: new \nAbstract: Dental image analysis plays a pivotal role in supporting accurate diagnosis and treatment planning in oral healthcare. Although recent advances have produced dental AI models for specific tasks and individual imaging modalities, their isolated designs",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27384",
+    "title": "From Instructor to Collaborator: What a 90-Participant Study Reveals about Human-Agent Collaboration in a Mobile Serious Game",
+    "link": "https://arxiv.org/abs/2605.27384",
+    "abstract": "arXiv:2605.27384v1 Announce Type: cross \nAbstract: This position paper reflects empirical data collected during my PhD from a large-scale within-subjects study (N = 90). The study compared a highly human-like, spoken embodied conversational agent (ECA) against a low human-like text base agent (no em",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27393",
+    "title": "StoryMI: Steerable Multi-Agent Therapeutic Dialogue Generation",
+    "link": "https://arxiv.org/abs/2605.27393",
+    "abstract": "arXiv:2605.27393v1 Announce Type: new \nAbstract: Large language models (LLMs) can generate fluent dialogue, but prior works lack situational grounding, dynamic strategy control, and evaluation aligned with clinical standards in motivational interviewing (MI). We introduce StoryMI, a multi-LLM agent ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27531",
+    "title": "Agentic Separation Logic Specification Synthesis",
+    "link": "https://arxiv.org/abs/2605.27531",
+    "abstract": "arXiv:2605.27531v1 Announce Type: cross \nAbstract: Specification synthesis, the task of automatically inferring formal specifications from program implementations and natural language, is important for refactoring, transpilation, optimization, and verification, yet remains an open challenge for larg",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27567",
+    "title": "Why LLMs Fail at Causal Discovery and How Interventional Agents Escape",
+    "link": "https://arxiv.org/abs/2605.27567",
+    "abstract": "arXiv:2605.27567v1 Announce Type: cross \nAbstract: Causal discovery is a cornerstone of scientific reasoning, yet whether large language models can perform it reliably remains an open question. Recent benchmarks show that even fine-tuned models plateau on simple causal graphs and degrade as complexi",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27571",
+    "title": "Discovery Agents for Real-Time Analytics: Toward Proactive Insight Systems",
+    "link": "https://arxiv.org/abs/2605.27571",
+    "abstract": "arXiv:2605.27571v1 Announce Type: cross \nAbstract: Modern analytics systems are fundamentally reactive, requiring users to define queries over increasingly complex and continuously evolving data. In real-time streaming environments, this paradigm breaks down, as the space of potential insights becom",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27586",
+    "title": "You Only Align Once: Propagating Cooperative Behaviors in Multi-Agent Systems through Seed Agents",
+    "link": "https://arxiv.org/abs/2605.27586",
+    "abstract": "arXiv:2605.27586v1 Announce Type: cross \nAbstract: Ensuring agent behaviors in distributed open multi-agent systems remains challenging, especially as populations grow and unaligned agents may exist. We show that a single aligned agent can propagate cooperative behaviors to untrained agents purely t",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27621",
+    "title": "Agents that Matter: Optimizing Multi-Agent LLMs via Removal-Based Attribution",
+    "link": "https://arxiv.org/abs/2605.27621",
+    "abstract": "arXiv:2605.27621v1 Announce Type: cross \nAbstract: As multi-agent systems (MAS) become increasingly complex, identifying the contributions of individual agents is critical for system optimization. However, existing approaches lack a rigorous, unified framework for credit assignment. In this work, we",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27690",
+    "title": "TRACES: Proactive Safety Auditing for Multi-Turn LLM Agents via Trajectory-State Modeling",
+    "link": "https://arxiv.org/abs/2605.27690",
+    "abstract": "arXiv:2605.27690v1 Announce Type: new \nAbstract: LLM agents increasingly operate through multi-turn tool use and environment interaction, where safety risks often emerge from intermediate steps long before they surface in the final outcome. Reactive auditing is therefore insufficient: post-hoc diagn",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27721",
+    "title": "UserHarness: Harnessing User Minds for Stronger Agent Theory-of-Mind",
+    "link": "https://arxiv.org/abs/2605.27721",
+    "abstract": "arXiv:2605.27721v1 Announce Type: new \nAbstract: Understanding what a user believes and intends is central to building effective agent assistants. This ability is often evaluated through Theory-of-Mind (ToM) tasks, where success requires reasoning from the user's perspective. However, many existing ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27787",
+    "title": "Long Live the Librarian! A Persistent Search Sub-Agent for Energy-Efficient Multi-Agent Software Engineering Systems",
+    "link": "https://arxiv.org/abs/2605.27787",
+    "abstract": "arXiv:2605.27787v1 Announce Type: cross \nAbstract: Multi-agent systems (MAS) have substantially advanced autonomous software engineering (SWE), but their growing inference energy demands raise sustainability concerns. In this paper, we demonstrate that this cost is concentrated in an overlooked sour",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27864",
+    "title": "FundaPod: A Multi-Persona Agent Pod Platform with Knowledge Graph Memory for AI-Assisted Fundamental Investment Research",
+    "link": "https://arxiv.org/abs/2605.27864",
+    "abstract": "arXiv:2605.27864v2 Announce Type: replace \nAbstract: Large language models (LLMs) are increasingly applied in finance, yet most existing work emphasizes trading signals or financial NLP tasks centered on prediction. Institutional fundamental research, by contrast, requires human analysts or AI agent",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27881",
+    "title": "Retrieval, Reward, and Training Protocols: What Matters in Training Search Agents?",
+    "link": "https://arxiv.org/abs/2605.27881",
+    "abstract": "arXiv:2605.27881v1 Announce Type: new \nAbstract: Search agents powered by large language models can autonomously decompose queries, retrieve information, and synthesize answers through multi-step reasoning. However, the rapid growth of training methods has outpaced controlled comparison: existing wo",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27905",
+    "title": "AI Research Agents Narrow Scientific Exploration",
+    "link": "https://arxiv.org/abs/2605.27905",
+    "abstract": "arXiv:2605.27905v1 Announce Type: new \nAbstract: AI research agents can now generate research ideas, design experiments, run code, and draft papers, raising the possibility of large-scale AI-assisted scientific discovery. Many current agent frameworks explicitly encourage the generation of novel and",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27955",
+    "title": "Skill-as-Pseudocode: Refactoring Skill Libraries to Pseudocode for LLM Agents",
+    "link": "https://arxiv.org/abs/2605.27955",
+    "abstract": "arXiv:2605.27955v1 Announce Type: cross \nAbstract: Markdown skill libraries for LLM agents ship as free-form prose, forcing the agent to re-derive both the input schema and the concrete invocation syntax on every retrieval. We observe that this often produces a \"confused -&gt; re-retrieve -&gt; stil",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.27984",
+    "title": "KVoiceBench, KOpenAudioBench, and KMMAU: Agent-Driven Korean Speech Benchmarks for Evaluating SpeechLMs",
+    "link": "https://arxiv.org/abs/2605.27984",
+    "abstract": "arXiv:2605.27984v1 Announce Type: new \nAbstract: Speech language models (SpeechLMs) have achieved substantial progress by extending large language models (LLMs) to the speech modality. However, SpeechLM evaluation remains heavily centered on English, limiting reliable assessment of multilingual spee",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28003",
+    "title": "ResearchMath-14K: Scaling Research-Level Mathematics via Agents",
+    "link": "https://arxiv.org/abs/2605.28003",
+    "abstract": "arXiv:2605.28003v1 Announce Type: new \nAbstract: The frontier of mathematics is defined by problems whose solutions are not yet known, yet it remains unclear whether language models can meaningfully engage with such problems without human intervention. A major obstacle is the lack of large-scale res",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28046",
+    "title": "MemCog: From Memory-as-Tool to Memory-as-Cognition in Conversational Agents",
+    "link": "https://arxiv.org/abs/2605.28046",
+    "abstract": "arXiv:2605.28046v1 Announce Type: cross \nAbstract: Existing agent memory systems universally follow what we term a Memory-as-Tool paradigm where a single query triggers one-shot retrieval of flat passage lists, suffering from passive invocation, reasoning-retrieval decoupling, and structural mismatc",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28108",
+    "title": "Ask Now, Use Later: Benchmarking the Proactivity Gap in Long-Lived LLM Agents",
+    "link": "https://arxiv.org/abs/2605.28108",
+    "abstract": "arXiv:2605.28108v2 Announce Type: new \nAbstract: A long-lived LLM agent, such as OpenClaw, earns its value by acting on a user's preferences and constraints across sessions, not just the current request. Yet today's agents keep what a user volunteers but rarely ask for what stays unspoken, leaving a",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28116",
+    "title": "MIRAGE: Context-Aware Prompt Injection against Mobile GUI Agents via User-Generated Content",
+    "link": "https://arxiv.org/abs/2605.28116",
+    "abstract": "arXiv:2605.28116v1 Announce Type: cross \nAbstract: Mobile graphical user interface (GUI) agents driven by vision-language models (VLMs) perceive the screen as rendered pixels and choose actions from what they see, so they cannot reliably separate trusted interface elements from user-generated conten",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28120",
+    "title": "LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning",
+    "link": "https://arxiv.org/abs/2605.28120",
+    "abstract": "arXiv:2605.28120v1 Announce Type: new \nAbstract: Graph-based Retrieval-Augmented Generation (GraphRAG) advances flat document retrieval by structuring knowledge as relational graphs, enabling more coherent and effective reasoning. However, applying it to specific domains like legal reasoning faces c",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28122",
+    "title": "SNARE: Adaptive Scenario Synthesis for Eliciting Overeager Behavior in Coding Agents",
+    "link": "https://arxiv.org/abs/2605.28122",
+    "abstract": "arXiv:2605.28122v1 Announce Type: cross \nAbstract: A coding agent executes a benign task as a sequence of shell, file, and network actions, any of which can quietly exceed the authorized scope while the task still completes. We call this overeager behavior: the prompt is not adversarial and the run ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28424",
+    "title": "Skill0.5: Joint Skill Internalization and Utilization for Out-of-Distribution Generalization in Agentic Reinforcement Learning",
+    "link": "https://arxiv.org/abs/2605.28424",
+    "abstract": "arXiv:2605.28424v1 Announce Type: new \nAbstract: Equipping large language models with explicit skills has emerged as a promising paradigm for enabling autonomous agents to solve complex tasks. Agent skills can be inherently divided into general skills for broad cognitive transfer and task-specific s",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28433",
+    "title": "Roles with Rails: Contract-Preserving Role Evolution in Multi-Agent Structured Reasoning",
+    "link": "https://arxiv.org/abs/2605.28433",
+    "abstract": "arXiv:2605.28433v1 Announce Type: new \nAbstract: Role-based LLM multi-agent systems need adaptive role pools, yet adapting such systems is not merely a matter of prompt optimization: roles often carry structural obligations, including capability coverage, message compatibility, validation, final-ans",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28465",
+    "title": "Beyond One Path: Evaluating and Enhancing Divergent Thinking in Interactive LLM Agents",
+    "link": "https://arxiv.org/abs/2605.28465",
+    "abstract": "arXiv:2605.28465v1 Announce Type: new \nAbstract: Divergent thinking is a core dimension of creativity, yet existing evaluations of Large Language Models (LLMs) treat them as single-turn text generations, failing to capture how an agent reasons through iterative interaction. To address this, we intro",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28534",
+    "title": "GUI-CIDER: Mid-training GUI Agents via Causal Internalization and Density-aware Exemplar Reselection",
+    "link": "https://arxiv.org/abs/2605.28534",
+    "abstract": "arXiv:2605.28534v1 Announce Type: new \nAbstract: Despite the rapid progress of multimodal large language models in building Graphical User Interface (GUI) agents, their real-world task completion is fundamentally bottlenecked by a lack of world knowledge about GUI operations. Existing solutions typi",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28598",
+    "title": "Evaluating the Realism of LLM-powered Social Agents: A Case Study of Reactions to Spanish Online News",
+    "link": "https://arxiv.org/abs/2605.28598",
+    "abstract": "arXiv:2605.28598v1 Announce Type: new \nAbstract: LLM-powered social agents are increasingly used to simulate online social behavior, yet their realism remains difficult to validate. Existing work has largely relied on general-purpose benchmarks, while less attention has been paid to short, reactive ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28607",
+    "title": "Adaptive Multimodal Agents-Based Framework for Automatic Workflow Execution",
+    "link": "https://arxiv.org/abs/2605.28607",
+    "abstract": "arXiv:2605.28607v1 Announce Type: cross \nAbstract: Modern information systems require autonomous agents capable of navigating complex workflows, yet current methodologies often struggle with the transition from structured metadata parsing to general environmental perception. While the integration of",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28629",
+    "title": "Mobile-Aptus: Confidence-Driven Proactive and Robust Interaction in MLLM-based Mobile-Using Agents",
+    "link": "https://arxiv.org/abs/2605.28629",
+    "abstract": "arXiv:2605.28629v1 Announce Type: new \nAbstract: Recent advancements in multimodal large language models (MLLMs) have shown exceptional potential in enabling mobile-using agents to autonomously execute human instructions. However, fully automated agents often try to execute tasks even when they are ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28646",
+    "title": "MaskClaw: Edge-Side Personalized Privacy Arbitration for GUI Agents with Behavior-Driven Skill Evolution",
+    "link": "https://arxiv.org/abs/2605.28646",
+    "abstract": "arXiv:2605.28646v1 Announce Type: cross \nAbstract: GUI agents rely on screenshots to infer intent and operate across applications, but these screenshots often contain private messages, medical records, payment credentials, and workplace-specific workflows. Privacy decisions in this setting depend on",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28774",
+    "title": "Agent Explorative Policy Optimization for Multimodal Agentic Reasoning",
+    "link": "https://arxiv.org/abs/2605.28774",
+    "abstract": "arXiv:2605.28774v1 Announce Type: new \nAbstract: Vision-language models with extended reasoning succeed on complex problems, but many real-world problems require external tools that internal reasoning alone often cannot resolve. Agentic reasoning therefore interleaves two behaviors with a structural",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28775",
+    "title": "Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents",
+    "link": "https://arxiv.org/abs/2605.28775",
+    "abstract": "arXiv:2605.28775v1 Announce Type: cross \nAbstract: Computer-use agents (CUAs) have recently made substantial progress, but deploying a separate large expert for each software domain remains expensive. Small open computer-use agents are more practical specialization targets, but they remain substanti",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28835",
+    "title": "GenesisFunc: Multi-Agent Data Generation for Accurate and Generalizable Function-Calling",
+    "link": "https://arxiv.org/abs/2605.28835",
+    "abstract": "arXiv:2605.28835v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) extend their capabilities through function-calling (FC), which relies on training data with high quality, diversity, and broad coverage of scenario. However, obtaining and annotating real function-calling data is challen",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28836",
+    "title": "No Reader Left Behind: Multi-Agent Summaries Everyone Can Understand",
+    "link": "https://arxiv.org/abs/2605.28836",
+    "abstract": "arXiv:2605.28836v1 Announce Type: cross \nAbstract: The Plain Writing Act in the United States requires government documents to be accessible in clear and simple language that the general public can easily understand, yet existing summarization systems struggle to address diverse linguistic and cogni",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28840",
+    "title": "How Consistent Are LLM Agents? Measuring Behavioral Reproducibility in Multi-Step Tool-Calling Pipelines",
+    "link": "https://arxiv.org/abs/2605.28840",
+    "abstract": "arXiv:2605.28840v1 Announce Type: cross \nAbstract: Large language model (LLM) agents with tool-calling capabilities are increasingly deployed in production systems, yet a fundamental reliability question remains under-explored: does the same agent behave the same way twice? We present a systematic e",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28850",
+    "title": "Representation Signatures and Risk-Feedback Alignment in LLM Trading Agents",
+    "link": "https://arxiv.org/abs/2605.28850",
+    "abstract": "arXiv:2605.28850v1 Announce Type: new \nAbstract: We study behavioral alignment and representation dynamics of large language model (LLM) agents in financial decision environments. Using TradeArena, an auditable trading-agent testbed with risk reports, execution simulation, memory, and replayable tra",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28862",
+    "title": "Molecular Lead Optimization via Agentic Tool Planning",
+    "link": "https://arxiv.org/abs/2605.28862",
+    "abstract": "arXiv:2605.28862v1 Announce Type: new \nAbstract: Drug discovery is a lengthy and resource-intensive process composed of multiple stages. Among these stages, lead optimization plays a critical role in transforming early hit compounds into viable drug candidates. This stage requires improving ADMET-re",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28914",
+    "title": "AIRGuard: Guarding Agent Actions with Runtime Authority Control",
+    "link": "https://arxiv.org/abs/2605.28914",
+    "abstract": "arXiv:2605.28914v1 Announce Type: cross \nAbstract: Tool-using language agents turn model decisions into external side effects: they read files, run scripts, call APIs, send messages, and invoke Model Context Protocol tools. This makes agent attacks different from jailbreaks. The harmful step is ofte",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28916",
+    "title": "First head-to-head comparison of agentic AI applied to the analysis of simulated data of the Einstein Telescope",
+    "link": "https://arxiv.org/abs/2605.28916",
+    "abstract": "arXiv:2605.28916v1 Announce Type: cross \nAbstract: We report a comparison of two state-of-the-art agentic AI systems, Claude Code (Anthropic) and Codex (OpenAI), tasked with autonomously executing a simple end-to-end gravitational wave data analysis pipeline on a shared computing infrastructure with",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28965",
+    "title": "Frontier LLM-based agents can overcome the ontology curation bottleneck for natural phenotypes",
+    "link": "https://arxiv.org/abs/2605.28965",
+    "abstract": "arXiv:2605.28965v1 Announce Type: new \nAbstract: Linking free-text phenotype descriptions to ontology terms, typically referred to as phenotype annotation, is essential for the cross-study integration of comparative morphological data. This labor intensive process has heavily relied on highly traine",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.28978",
+    "title": "VFEAgent: A Multimodal Agent Framework for End-to-End Automated Finite Element Analysis",
+    "link": "https://arxiv.org/abs/2605.28978",
+    "abstract": "arXiv:2605.28978v1 Announce Type: new \nAbstract: Finite Element Analysis (FEA) serves as the cornerstone of modern engineering design. However, its workflow is inherently complex and relies heavily on domain expertise. Although recent efforts have integrated Large Language Models (LLMs) into FEA, ex",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29055",
+    "title": "Hallucination Mitigation with Agentic AI, Nested Learning, and AI Sustainability via Semantic Caching",
+    "link": "https://arxiv.org/abs/2605.29055",
+    "abstract": "arXiv:2605.29055v1 Announce Type: new \nAbstract: Hallucination remains a major reliability barrier for production LLM systems, particularly in multi-agent pipelines where unsupported claims can propagate unchecked across stages. This paper adapts a HOPE-inspired Nested Learning architecture with Con",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29064",
+    "title": "Analyzing Persona Effects in Generated Explanations from Multimodal LLM Agents in Urban Perception",
+    "link": "https://arxiv.org/abs/2605.29064",
+    "abstract": "arXiv:2605.29064v1 Announce Type: cross \nAbstract: We study how persona prompting shapes language generated by multimodal large language models in an urban perception setting. Using 59,808 annotations from 1,200 persona-conditioned agents and two no-persona settings, we analyze captions, justificati",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29082",
+    "title": "The Importance of Out-of-Band Metadata for Safe Autonomous Agents: The Redpanda Agentic Data Plane",
+    "link": "https://arxiv.org/abs/2605.29082",
+    "abstract": "arXiv:2605.29082v1 Announce Type: new \nAbstract: AI agents are increasingly expected to operate as digital employees: accessing enterprise data, making decisions, and taking actions autonomously. But agents are simultaneously less predictable than humans -- prone to hallucination, misinterpretation,",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29116",
+    "title": "Beyond Consensus: Trace-Level Synthesis in Mixture of Agents",
+    "link": "https://arxiv.org/abs/2605.29116",
+    "abstract": "arXiv:2605.29116v1 Announce Type: new \nAbstract: When multiple LLM agents solve the same problem, standard practice compresses each agent's reasoning into a majority vote or layered synthesis, treating agreement as the finish line. We show this is unnecessarily lossy: an LLM aggregator that reads co",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29119",
+    "title": "PRO-CUA: Process-Reward Optimization for Computer Use Agents",
+    "link": "https://arxiv.org/abs/2605.29119",
+    "abstract": "arXiv:2605.29119v1 Announce Type: new \nAbstract: Computer use agents (CUAs) have shown strong potential for automating complex digital workflows, yet their training remains constrained by costly live environment interaction and limited high-quality supervision. Existing filtered behavior cloning pip",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29129",
+    "title": "Governing Technical Debt in Agentic AI Systems",
+    "link": "https://arxiv.org/abs/2605.29129",
+    "abstract": "arXiv:2605.29129v1 Announce Type: new \nAbstract: Agentic AI systems are increasingly being explored as production infrastructure: they reason over multiple steps, call tools, act through workflows, and adapt through memory and feedback. These systems create governance challenges that are not fully c",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29146",
+    "title": "SafeRx-Agent: A Knowledge-Grounded Multi-Agent Framework for Safe and Explainable Medication Recommendation",
+    "link": "https://arxiv.org/abs/2605.29146",
+    "abstract": "arXiv:2605.29146v1 Announce Type: cross \nAbstract: Medication recommendation predicts medications for patient visits, but existing methods still face two key challenges. At the model level, traditional drug recommendation methods only predict structured drug codes with limited evidence grounding, wh",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29174",
+    "title": "Paper Agents, Paper Gains: An Empirical Analysis of DeFi Investment Agents",
+    "link": "https://arxiv.org/abs/2605.29174",
+    "abstract": "arXiv:2605.29174v1 Announce Type: new \nAbstract: DeFi investment agents, systems that use AI for autonomous on-chain trading, have attained over USD 3 billion in combined token valuations since late 2024. We survey over 1,900 AI-tagged crypto projects, filter to investment-focused agents, and curate",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29178",
+    "title": "The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems",
+    "link": "https://arxiv.org/abs/2605.29178",
+    "abstract": "arXiv:2605.29178v1 Announce Type: cross \nAbstract: As agentic coding systems decompose work across multiple model instances, a critical safety question is whether those instances can coordinate to achieve a hidden malicious objective while remaining aligned with user intent. We introduce SCHEME, a b",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29218",
+    "title": "GTA: Generating Long-Horizon Tasks for Web Agents at Scale",
+    "link": "https://arxiv.org/abs/2605.29218",
+    "abstract": "arXiv:2605.29218v1 Announce Type: new \nAbstract: Web agents, which couple language models with browsing and tool-use capabilities, show promise as open web assistants. Yet progress is increasingly limited by the lack of scalable, process-level supervision. Existing benchmarks are largely manually co",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29224",
+    "title": "Relevance as a Vulnerability: How Web Retrieval Degrades Safety Alignment in LLM Agents",
+    "link": "https://arxiv.org/abs/2605.29224",
+    "abstract": "arXiv:2605.29224v1 Announce Type: cross \nAbstract: AI agents augment large language models with external tools such as web retrieval, enabling grounded and up-to-date responses. However, incorporating external content into the generation pipeline can weaken the safety alignment mechanisms that gover",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29225",
+    "title": "BenchTrace: A Benchmark for Testing Reflection Ability and Controlled Evolution in LLM Agents",
+    "link": "https://arxiv.org/abs/2605.29225",
+    "abstract": "arXiv:2605.29225v1 Announce Type: new \nAbstract: Self-evolving agents improve over time by reflecting on past failures, but existing evaluation is limited in two ways: it measures only task scores, leaving reflection quality unknown, and it relies on agents' own episode runs, offering no mechanism t",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29251",
+    "title": "Provably Secure Agent Guardrail",
+    "link": "https://arxiv.org/abs/2605.29251",
+    "abstract": "arXiv:2605.29251v1 Announce Type: new \nAbstract: As large language models transition from bounded generative engines to agents with expansive execution privileges, AI going out of control precipitates a fundamental crisis in artificial intelligence security. Existing defense architectures heavily re",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29253",
+    "title": "OpenClawBench: Benchmarking Process-side Anomalies in Real-world Agent Execution Trajectories",
+    "link": "https://arxiv.org/abs/2605.29253",
+    "abstract": "arXiv:2605.29253v1 Announce Type: new \nAbstract: Task success can hide process anomalies in real-world agent executions. An agent may pass the final task oracle while still accumulating unresolved ambiguity, unsafe external writes, ignored errors, weakly grounded commitments, or capability-boundary ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29256",
+    "title": "DynSess: Dynamic Session-Level Evaluation and Optimization Framework for Role-Playing Agents",
+    "link": "https://arxiv.org/abs/2605.29256",
+    "abstract": "arXiv:2605.29256v1 Announce Type: cross \nAbstract: Role-playing with large language models is fundamentally a session-level task, requiring agents to sustain character identity and interaction quality across extended multi-turn conversations. Yet existing evaluation and optimization methods remain l",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29262",
+    "title": "Harmonizing Real-Time Constraints and Long-Horizon Reasoning: An Asynchronous Agentic Framework for Dynamic Scheduling",
+    "link": "https://arxiv.org/abs/2605.29262",
+    "abstract": "arXiv:2605.29262v1 Announce Type: new \nAbstract: The Dynamic Flexible Job Shop Scheduling Problem (DFJSP) necessitates a trade-off between instant reaction to stochastic disturbances and global optimization of production goals. Conventional priority rules are insufficiently flexible to handle comple",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29293",
+    "title": "LLM-ALSO: LLM-Driven Adaptive Learning-Signal Optimization for Multi-Agent Reinforcement Learning",
+    "link": "https://arxiv.org/abs/2605.29293",
+    "abstract": "arXiv:2605.29293v1 Announce Type: new \nAbstract: Effective training-time guidance is central to multi-agent reinforcement learning (MARL), yet remains difficult in sparse-reward settings where weak supervision limits coordination and policy improvement, and existing methods often require substantial",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29307",
+    "title": "GrepSeek: Training Search Agents for Direct Corpus Interaction",
+    "link": "https://arxiv.org/abs/2605.29307",
+    "abstract": "arXiv:2605.29307v1 Announce Type: cross \nAbstract: Large Language Model (LLM) search agents have shown strong promise for knowledge-intensive language tasks through multiple rounds of reasoning and information retrieval. Most existing systems access information using a retriever that takes a keyword",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29354",
+    "title": "Harmless Yet Harmful: Neutral Prompting Attacks for Stealthy Hallucination Steering in Agent Skills",
+    "link": "https://arxiv.org/abs/2605.29354",
+    "abstract": "arXiv:2605.29354v1 Announce Type: cross \nAbstract: LLM-powered coding agents increasingly participate in software development workflows by generating code, selecting dependencies, and producing package installation commands. This creates a new software supply chain risk: when an agent hallucinates a",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29368",
+    "title": "SURGENT: A Surgical Multi-Agent Assistance System Across the Perioperative Workflow",
+    "link": "https://arxiv.org/abs/2605.29368",
+    "abstract": "arXiv:2605.29368v1 Announce Type: cross \nAbstract: The intricate nature of modern surgical care necessitates intelligent systems that can synthesize extensive patient records, support collaborative decision-making, and provide transparent, auditable reasoning across the entire perioperative workflow",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29430",
+    "title": "Towards Human-Like Interactive Speech Recognition With Agentic Correction and Semantic Evaluation",
+    "link": "https://arxiv.org/abs/2605.29430",
+    "abstract": "arXiv:2605.29430v1 Announce Type: new \nAbstract: Automatic speech recognition (ASR) is a core component of human--computer interaction and an increasingly important front-end for LLM-based assistants and agents. However, most current ASR systems still follow a single-pass paradigm, which is poorly a",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29440",
+    "title": "SkillBrew: Multi-Objective Curation of Skill Banks for LLM Agents",
+    "link": "https://arxiv.org/abs/2605.29440",
+    "abstract": "arXiv:2605.29440v1 Announce Type: cross \nAbstract: Retrieval-augmented LLM agents increasingly rely on curated skill banks: collections of reusable textual principles that guide decision making on complex tasks. Existing approaches typically expand these banks in an append-only fashion, continuously",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29442",
+    "title": "How Coding Agents Fail Their Users: A Large-Scale Analysis of Developer-Agent Misalignment in 20,574 Real-World Sessions",
+    "link": "https://arxiv.org/abs/2605.29442",
+    "abstract": "arXiv:2605.29442v1 Announce Type: cross \nAbstract: AI coding agents increasingly act directly within software environments, yet existing analyses of their failures rely on benchmark trajectories that miss how developers actually experience misalignment. We present an observational study of 20,574 co",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29463",
+    "title": "Honest Lying: Understanding Memory Confabulation in Reflexive Agents",
+    "link": "https://arxiv.org/abs/2605.29463",
+    "abstract": "arXiv:2605.29463v1 Announce Type: cross \nAbstract: Reflexion-style agents rely on self-generated reflections as memory, implicitly assuming that agents can accurately diagnose their own failures.We show that this assumption can fail systematically: across ALFWorld and HumanEval, agents store confide",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29483",
+    "title": "VitalAgent: A Tool-Augmented Agent for Reactive and Proactive Physiological Monitoring over Wearable Health Data",
+    "link": "https://arxiv.org/abs/2605.29483",
+    "abstract": "arXiv:2605.29483v1 Announce Type: new \nAbstract: Wearable devices enable continuous monitoring of physiological signals such as ECG and PPG, but existing mHealth systems are largely limited to task-specific prediction pipelines or reactive question answering over static summaries. They lack the abil",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29486",
+    "title": "PhoneWorld: Scaling Phone-Use Agent Environments",
+    "link": "https://arxiv.org/abs/2605.29486",
+    "abstract": "arXiv:2605.29486v1 Announce Type: cross \nAbstract: A central bottleneck for phone-use agents is that controllable, reproducible environments covering real mobile behavior are hard to build at scale. Existing mobile-agent benchmarks have made important progress on evaluation, but they do not by thems",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29512",
+    "title": "MINDGAMES: A Live Arena for Evaluating Social and Strategic Reasoning in Multi-Agent LLMs",
+    "link": "https://arxiv.org/abs/2605.29512",
+    "abstract": "arXiv:2605.29512v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed as interactive agents, yet their capacity for social and strategic reasoning over extended interaction remains poorly understood. Existing evaluations rely on static vignettes or single-game bench",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29534",
+    "title": "UI-KOBE: Knowledge-Oriented Behavior Exploration for Lightweight Graph-Guided GUI Agents",
+    "link": "https://arxiv.org/abs/2605.29534",
+    "abstract": "arXiv:2605.29534v1 Announce Type: new \nAbstract: Recent advances in mobile GUI agents have shown strong potential for automating mobile tasks, but most effective systems still depend on large vision-language models for screenshot understanding and long-horizon planning. Small GUI agents that can be ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29560",
+    "title": "Battery-Sim-Agent: Leveraging LLM-Agent for Inverse Battery Parameter Estimation",
+    "link": "https://arxiv.org/abs/2605.29560",
+    "abstract": "arXiv:2605.29560v1 Announce Type: new \nAbstract: Parameterizing high-fidelity \"digital twins\" of batteries is a critical yet challenging inverse problem that hinders the pace of battery innovation. Prevailing methods formulate this as a black-box optimization (BBO) task, employing algorithms that ar",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29612",
+    "title": "CONCAT: Consensus- and Confidence-Driven Ad Hoc Teaming for Efficient LLM-Based Multi-Agent Systems",
+    "link": "https://arxiv.org/abs/2605.29612",
+    "abstract": "arXiv:2605.29612v1 Announce Type: new \nAbstract: Although large language model (LLM) based multi-agent systems (MAS) show their capability to solve complex tasks and achieve higher performance over single agent systems, they lead to huge computational overheads because of heavy communication between",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29625",
+    "title": "Improving Collaborative Storytelling with a Multi-Agent Framework Based on Large Language Models",
+    "link": "https://arxiv.org/abs/2605.29625",
+    "abstract": "arXiv:2605.29625v1 Announce Type: new \nAbstract: The topic of Co-creation, i.e., AI agents interacting with humans to generate outputs (e.g., art), has gained significant attention recently. However, most studies focus on adult-human interactions in a digital setting. This paper explores a novel lud",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29630",
+    "title": "Entity-Collision: A Stratified Protocol for Attributing Retrieval Lift in Agent Memory",
+    "link": "https://arxiv.org/abs/2605.29630",
+    "abstract": "arXiv:2605.29630v1 Announce Type: cross \nAbstract: End-to-end agent-memory benchmarks report a single hit@k per retriever, confounding lexical leakage (uncontrolled query/gold/distractor entity overlap) with tag-mixing (preferences, services, tools averaged together). We propose entity-collision, a ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29643",
+    "title": "AgentCVR: Active Multi-Agent Cross-Video Reasoning via Script-Simulated Reinforcement Learning",
+    "link": "https://arxiv.org/abs/2605.29643",
+    "abstract": "arXiv:2605.29643v1 Announce Type: cross \nAbstract: Cross-Video Reasoning (CVR) has emerged as a critical frontier in multimodal intelligence, requiring models to retrieve, align, and aggregate evidence distributed across multiple videos. Current Multimodal Large Language Models (MLLMs) often struggl",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29653",
+    "title": "PTCG-Bench: Can LLM Agents Master Pok\\'emon Trading Card Game?",
+    "link": "https://arxiv.org/abs/2605.29653",
+    "abstract": "arXiv:2605.29653v1 Announce Type: new \nAbstract: Given a strategically complex board game, human players can quickly learn to devise strategies after playing a few rounds. Autonomous agents require similar capabilities in realistic interactive environments, yet existing agent benchmarks often fail t",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29668",
+    "title": "GRASP: Gated Regression-Aware Skill Proposer for Self-Improving LLM Agents",
+    "link": "https://arxiv.org/abs/2605.29668",
+    "abstract": "arXiv:2605.29668v1 Announce Type: new \nAbstract: LLM agents acting in structured environments fail in operational rather than conversational ways, and reliability depends on procedural knowledge of the environment. Prior self-improvement methods accumulate natural-language guidance without checking ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29676",
+    "title": "Notation Matters: A Benchmark Study of Token-Optimized Formats in Agentic AI Systems",
+    "link": "https://arxiv.org/abs/2605.29676",
+    "abstract": "arXiv:2605.29676v1 Announce Type: new \nAbstract: Large language models in Agentic AI systems consume tool schemas and execution results and emit tool invocations as structured data. The default language for that exchange, JSON, was designed for application-to-application interchange rather than toke",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29697",
+    "title": "Beyond Trajectory Rewards: Step-level Credit Assignment for Agentic Search via Graph Modeling",
+    "link": "https://arxiv.org/abs/2605.29697",
+    "abstract": "arXiv:2605.29697v1 Announce Type: new \nAbstract: In Agentic Search, trajectory-level outcome rewards fail to quantify the behavioral contributions of individual steps, while existing step-level reward methods typically rely on costly tree sampling. We view world knowledge as a latent world graph and",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29744",
+    "title": "Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence",
+    "link": "https://arxiv.org/abs/2605.29744",
+    "abstract": "arXiv:2605.29744v1 Announce Type: new \nAbstract: The impressive performance of generalist large language models (LLMs) such as GPT and Claude in healthcare raises a critical question: will domain-specific medical specialist models become obsolete? We argue that the future of medical artificial intel",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29790",
+    "title": "Evolve as a Team: Collaborative Self-Evolution for LLM-based Multi-Agent Systems",
+    "link": "https://arxiv.org/abs/2605.29790",
+    "abstract": "arXiv:2605.29790v1 Announce Type: cross \nAbstract: LLM-based multi-agent systems (MAS) have emerged as an effective paradigm for complex and long-horizon tasks. However, in real-world tasks, MAS often exhibit various failures during execution and such failures are difficult to eliminate during desig",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29794",
+    "title": "SkillsInjector: Dynamic Skill Context Construction for LLM Agents",
+    "link": "https://arxiv.org/abs/2605.29794",
+    "abstract": "arXiv:2605.29794v1 Announce Type: new \nAbstract: LLM agents now draw on growing skill libraries to handle complex tasks. However, injecting more skills does not always improve task completion and can even degrade it. Existing methods still treat skill injection as a static step, selecting skills wit",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29796",
+    "title": "SAAS: Self-Aware Reinforcement Learning for Over-Search Mitigation in Agentic Search",
+    "link": "https://arxiv.org/abs/2605.29796",
+    "abstract": "arXiv:2605.29796v1 Announce Type: new \nAbstract: Agentic search enables LLMs to solve complex multi-hop questions through iterative reasoning and external search. Despite the effectiveness, these systems often suffer from a critical limitation in practice: agents fail to recognize their own knowledg",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29801",
+    "title": "AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security",
+    "link": "https://arxiv.org/abs/2605.29801",
+    "abstract": "arXiv:2605.29801v1 Announce Type: new \nAbstract: Modern open-world agents such as OpenClaw exhibit powerful cross-environment execution capabilities yet introduce broad new safety risk sources. Meanwhile, advanced frontier AI models drastically lower attack barriers, rendering current agent alignmen",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29861",
+    "title": "Towards Verifiable Multimodal Deep Research: A Multi-Agent Harness for Interleaved Report Generation",
+    "link": "https://arxiv.org/abs/2605.29861",
+    "abstract": "arXiv:2605.29861v1 Announce Type: cross \nAbstract: Large Language Models (LLMs) have advanced autonomous agents from deep search, which retrieves concise factual answers, to deep research, which synthesizes scattered evidence into long-form reports. However, verifiable multimodal deep research remai",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29874",
+    "title": "Evolutionary Dynamics of Cooperation in Next-Generation LLM Agent Systems: A Cross-Provider Empirical Extension",
+    "link": "https://arxiv.org/abs/2605.29874",
+    "abstract": "arXiv:2605.29874v1 Announce Type: cross \nAbstract: Do next-generation LLM agents inherit the cooperative biases documented in their predecessors, or does scale and provider diversity reshape equilibrium behaviour in competitive multi-agent settings? Willis et al. established a benchmark for this que",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29893",
+    "title": "Redundant or Necessary? A Benchmark for Detecting Redundant Steps in Agent Trajectories",
+    "link": "https://arxiv.org/abs/2605.29893",
+    "abstract": "arXiv:2605.29893v1 Announce Type: new \nAbstract: LLM-based agents have demonstrated strong capabilities in solving complex tasks through multi-step reasoning and tool use. However, existing evaluation protocols primarily focus on task success, overlooking a critical aspect of agent behavior: executi",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29910",
+    "title": "Agora: Toward Autonomous Bug Detection in Production-Level Consensus Protocols with LLM Agents",
+    "link": "https://arxiv.org/abs/2605.29910",
+    "abstract": "arXiv:2605.29910v1 Announce Type: cross \nAbstract: Consensus protocols form the backbone of distributed systems and blockchains, where implementation bugs can cause data corruption and financial losses. While LLM-based approaches show promise in code analysis, they struggle with deep protocol-level ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29927",
+    "title": "Does The Way You Plan Matter? An Empirical Study of Planning Representations for LLM Web Agents",
+    "link": "https://arxiv.org/abs/2605.29927",
+    "abstract": "arXiv:2605.29927v1 Announce Type: cross \nAbstract: Despite recent advances, LLM-based web agents still struggle with limited exploration, omission of critical steps, and sensitivity to task constraints. Prior work suggests that many of these failures stem from weaknesses in planning, yet the impact ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29960",
+    "title": "Hijacking Agent Memory: Stealthy Trojan Attacks Through Conversational Interaction",
+    "link": "https://arxiv.org/abs/2605.29960",
+    "abstract": "arXiv:2605.29960v1 Announce Type: cross \nAbstract: Large language model (LLM) agents increasingly leverage long term memory to support persistent and autonomous task execution. However, this capability also introduces a new attack surface: memory poisoning, where adversaries can inject malicious inf",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.29966",
+    "title": "Compass: Navigating Global Marine Lead Data Integration through Expert-Guided LLM Agent",
+    "link": "https://arxiv.org/abs/2605.29966",
+    "abstract": "arXiv:2605.29966v1 Announce Type: new \nAbstract: Marine lead (Pb) and its isotopes are critical tracers for ocean circulation and anthropogenic pollution, yet in-situ observations remain costly and sparse. While vast historical records exist, they lie buried within the unstructured content of academ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30002",
+    "title": "KairosAgent: Agentic Time Series Forecasting with Fused Semantic Reasoning",
+    "link": "https://arxiv.org/abs/2605.30002",
+    "abstract": "arXiv:2605.30002v1 Announce Type: new \nAbstract: Cross-domain multimodal time series forecasting is a challenging task, requiring models to integrate precise numerical comprehension, cross-domain semantic understanding, and effective multimodal fusion. Existing approaches either build Time Series Fo",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30042",
+    "title": "Learning to Choose: An Empowerment-Guided Multi-Agent System with semantic communication for Adaptive Method Selection",
+    "link": "https://arxiv.org/abs/2605.30042",
+    "abstract": "arXiv:2605.30042v1 Announce Type: new \nAbstract: Automating scientific computing workflows requires more than generating executable code: autonomous systems must also select appropriate computational strategies, implement them faithfully, and ensure that the resulting outcomes remain causally attrib",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30102",
+    "title": "When Cloud Agents Meet Device Agents: Lessons from Hybrid Multi-Agent Systems",
+    "link": "https://arxiv.org/abs/2605.30102",
+    "abstract": "arXiv:2605.30102v1 Announce Type: cross \nAbstract: The design space of agentic AI inference spans two extremes: frontier large language models (LLMs), typically hosted in the cloud and offering strong performance across a wide range of tasks at substantially high cost, and more cost-efficient small ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30136",
+    "title": "Enhancing Multi-Agent Communication through Attention Steering with Context Relevance",
+    "link": "https://arxiv.org/abs/2605.30136",
+    "abstract": "arXiv:2605.30136v1 Announce Type: new \nAbstract: LLM-based multi-agent systems have demonstrated remarkable performance on complex tasks through collaborative reasoning. However, these systems tend to rapidly accumulate extremely long conversation histories during interaction. As conversations lengt",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30144",
+    "title": "AgentSchool: An LLM-Powered Multi-Agent Simulation for Education",
+    "link": "https://arxiv.org/abs/2605.30144",
+    "abstract": "arXiv:2605.30144v1 Announce Type: new \nAbstract: Despite the rapid deployment of LLMs into classrooms, validating educational AI remains uniquely intractable: interventions act on developing learners whose cognitive and social trajectories are irreversibly shaped, while real-world trials are slow, e",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30152",
+    "title": "Do Proactive Agents Really Need an LLM to Decide When to Wake and What to Anchor?",
+    "link": "https://arxiv.org/abs/2605.30152",
+    "abstract": "arXiv:2605.30152v1 Announce Type: cross \nAbstract: Proactive agents read user activity as text and call an LLM on every event to decide whether to act. But user activity is not natively text: it is a structured event stream of (actor, verb, object, timestamp) tuples that the operating system already",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30159",
+    "title": "Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents",
+    "link": "https://arxiv.org/abs/2605.30159",
+    "abstract": "arXiv:2605.30159v1 Announce Type: new \nAbstract: Memory-augmented LLM agents tackle complex long-horizon tasks by recursively summarizing interaction trajectories into compact memory. However, existing approaches typically train these memory policies using outcome-based reinforcement learning, faili",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30169",
+    "title": "Dissociative Identity: Language Model Agents Lack Grounding for Reputation Mechanisms",
+    "link": "https://arxiv.org/abs/2605.30169",
+    "abstract": "arXiv:2605.30169v1 Announce Type: cross \nAbstract: As autonomous language model agents proliferate, forming an emerging agentic web with real-world consequences, what credibility signals can you use to decide whether to trust an unfamiliar agent in the wild and delegate to it? A natural governance i",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30190",
+    "title": "Mean-Field Diffuser: Scaling Offline MARL to Thousands of Agents",
+    "link": "https://arxiv.org/abs/2605.30190",
+    "abstract": "arXiv:2605.30190v1 Announce Type: new \nAbstract: Diffusion-based planning has achieved strong results in single-agent offline reinforcement learning, yet scaling to many-agent systems remains intractable due to the curse of dimensionality in the joint trajectory space. We introduce MF-Diffuser, a fr",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30227",
+    "title": "Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization",
+    "link": "https://arxiv.org/abs/2605.30227",
+    "abstract": "arXiv:2605.30227v1 Announce Type: cross \nAbstract: While Multi-Agent Systems (MAS) empower Large Language Models to tackle complex reasoning tasks through collaborative interaction, optimizing their dynamics remains a formidable challenge due to the discrete, non-differentiable nature of the computa",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30274",
+    "title": "Loong: A Human-Like Long Document Translation Agent with Observe-and-Act Adaptive Context Selection",
+    "link": "https://arxiv.org/abs/2605.30274",
+    "abstract": "arXiv:2605.30274v1 Announce Type: cross \nAbstract: Document-level translation remains one of the most challenging tasks for large language models, which are constrained by limited context windows that impede global cohesion, while simultaneously suffering from redundant contextual information that d",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30314",
+    "title": "SpecBench: Evaluating Specification-Level Reasoning for Software Engineering LLM Agents",
+    "link": "https://arxiv.org/abs/2605.30314",
+    "abstract": "arXiv:2605.30314v1 Announce Type: new \nAbstract: Software engineering (SWE) agents are transitioning from code generation to full software development lifecycle automation. A critical phase in this lifecycle is specification design: transforming initial proposals into carefully considered requiremen",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 5
+  },
+  {
+    "id": "2605.30335",
+    "title": "Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",
+    "link": "https://arxiv.org/abs/2605.30335",
+    "abstract": "arXiv:2605.30335v1 Announce Type: new \nAbstract: Multi-component LLM agents assemble probabilistic claims from components that each see only part of a joint problem; the composition can violate basic probability axioms even when every component is locally coherent. We formalise this locally coherent",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 5
+  },
+  {
+    "id": "2505.21996",
+    "title": "VRAG: Learning World Models for Interactive Video Generation",
+    "link": "https://arxiv.org/abs/2505.21996",
+    "abstract": "arXiv:2505.21996v4 Announce Type: replace-cross \nAbstract: Foundational world models must be both interactive and preserve spatiotemporal coherence for effective future planning with action choices. However, present models for long video generation have limited inherent world modeling capabilities d",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2505.24503",
+    "title": "Online Fair Division with Additional Information",
+    "link": "https://arxiv.org/abs/2505.24503",
+    "abstract": "arXiv:2505.24503v3 Announce Type: replace-cross \nAbstract: We study the problem of fairly allocating indivisible goods to agents in an online setting, where goods arrive sequentially and must be allocated irrevocably. Focusing on the popular fairness notions of envy-freeness, proportionality, and ma",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2506.05985",
+    "title": "Dynamic Mixture of Progressive Parameter-Efficient Expert Library for Lifelong Robot Learning",
+    "link": "https://arxiv.org/abs/2506.05985",
+    "abstract": "arXiv:2506.05985v3 Announce Type: replace \nAbstract: A generalist agent must continuously learn and adapt throughout its lifetime, achieving efficient forward transfer while minimizing catastrophic forgetting. Previous work within the dominant pretrain-then-finetune paradigm has explored parameter-e",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2511.04758",
+    "title": "ScheduleStream: Temporal Planning with Samplers for GPU-Accelerated Multi-Arm Task and Motion Planning &amp; Scheduling",
+    "link": "https://arxiv.org/abs/2511.04758",
+    "abstract": "arXiv:2511.04758v2 Announce Type: replace-cross \nAbstract: Bimanual and humanoid robots are appealing because of their human-like ability to leverage multiple arms to efficiently complete tasks. However, controlling multiple arms at once is computationally challenging due to the growth in the hybrid",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2512.04733",
+    "title": "E3AD: An Emotion-Aware Vision-Language-Action Model for Human-Centric End-to-End Autonomous Driving",
+    "link": "https://arxiv.org/abs/2512.04733",
+    "abstract": "arXiv:2512.04733v3 Announce Type: replace-cross \nAbstract: End-to-end autonomous driving (AD) systems increasingly adopt vision-language-action (VLA) models, yet they typically ignore the passenger's emotional state, which is central to comfort and AD acceptance. We introduce Open-Domain End-to-End ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2512.11944",
+    "title": "A Review of Learning-Based Motion Planning: Toward a Data-Driven Optimal Control Approach",
+    "link": "https://arxiv.org/abs/2512.11944",
+    "abstract": "arXiv:2512.11944v2 Announce Type: replace-cross \nAbstract: Motion planning for autonomous driving (AD) faces a critical trade-off. While traditional rule-based pipelines offer verifiable safety and interpretability, they often fail to generalize in complex scenarios. Conversely, emerging learning-ba",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2601.17670",
+    "title": "Grammar-Aware Literate Generative Mathematical Programming with Compiler-in-the-Loop",
+    "link": "https://arxiv.org/abs/2601.17670",
+    "abstract": "arXiv:2601.17670v2 Announce Type: replace-cross \nAbstract: Mathematical programming is widely employed across various sectors - such as logistics, energy, and workforce planning - to model and solve industrial optimisation problems, but its use requires substantial domain expertise. Large language m",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2602.06361",
+    "title": "Envy-Free Allocation of Indivisible Goods via Noisy Queries",
+    "link": "https://arxiv.org/abs/2602.06361",
+    "abstract": "arXiv:2602.06361v2 Announce Type: replace-cross \nAbstract: We introduce a problem of fairly allocating indivisible goods (items) in which the agents' valuations cannot be observed directly, but instead can only be accessed via noisy queries. In the two-agent setting with Gaussian noise and bounded v",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2603.16673",
+    "title": "When Should a Robot Think? Resource-Aware Reasoning via Reinforcement Learning for Embodied Robotic Decision-Making",
+    "link": "https://arxiv.org/abs/2603.16673",
+    "abstract": "arXiv:2603.16673v4 Announce Type: replace-cross \nAbstract: Embodied robotic systems increasingly rely on large language model (LLM)-based agents to support high-level reasoning, planning, and decision-making during interactions with the environment. However, invoking LLM reasoning introduces substan",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2603.23234",
+    "title": "MemCollab: Cross-Model Memory Collaboration via Contrastive Trajectory Distillation",
+    "link": "https://arxiv.org/abs/2603.23234",
+    "abstract": "arXiv:2603.23234v2 Announce Type: replace \nAbstract: LLM agents increasingly rely on memory mechanisms to reuse knowledge from past problem-solving experiences. However, existing methods typically construct memory for a single agent and reuse it with the same underlying model, tightly coupling store",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2604.04956",
+    "title": "The Planetary Cost of AI Acceleration, Part II: The 10th Planetary Boundary and the 6.5-Year Countdown",
+    "link": "https://arxiv.org/abs/2604.04956",
+    "abstract": "arXiv:2604.04956v3 Announce Type: replace-cross \nAbstract: The recent, super-exponential scaling of autonomous Large Language Model (LLM) agents signals a broader, fundamental paradigm shift from machines primarily replacing the human hands (manual labor and mechanical processing) to machines delega",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2604.17176",
+    "title": "Intent-aligned Autonomous Spacecraft Guidance via Reasoning Models",
+    "link": "https://arxiv.org/abs/2604.17176",
+    "abstract": "arXiv:2604.17176v2 Announce Type: replace-cross \nAbstract: Future spacecraft operations require autonomy that can interpret high-level mission intent while preserving safety. However, existing trajectory optimization still relies heavily on expert-crafted formulations and does not support intent-con",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.05964",
+    "title": "Uncertainty Estimation via Hyperspherical Confidence Mapping",
+    "link": "https://arxiv.org/abs/2605.05964",
+    "abstract": "arXiv:2605.05964v2 Announce Type: replace \nAbstract: Quantifying uncertainty in neural network predictions is essential for high-stakes domains such as autonomous driving, healthcare, and manufacturing. While existing approaches often depend on costly sampling or restrictive distributional assumptio",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.07707",
+    "title": "Hierarchical Task Network Planning with LLM-Generated Heuristics",
+    "link": "https://arxiv.org/abs/2605.07707",
+    "abstract": "arXiv:2605.07707v2 Announce Type: replace \nAbstract: HTN planning is a variation of classical planning where, instead of searching for a linear sequence of actions, an algorithm decomposes higher-level tasks using a method library until only executable actions remain. On one hand, this allows one to",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.23993",
+    "title": "Nano World Models: A Minimalist Implementation of Future Video Prediction",
+    "link": "https://arxiv.org/abs/2605.23993",
+    "abstract": "arXiv:2605.23993v2 Announce Type: replace-cross \nAbstract: World models have become a central paradigm for learning predictive simulators that support generation, planning, and decision-making. Yet, despite rapid progress in industry-scale interactive video generation, the broader research community",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.25297",
+    "title": "Eureka: Intelligent Feature Engineering for Enterprise AI Cloud Resource Demand Prediction",
+    "link": "https://arxiv.org/abs/2605.25297",
+    "abstract": "arXiv:2605.25297v2 Announce Type: replace-cross \nAbstract: Effective features are crucial for predictive model performance, but creating them often requires domain expertise, limiting scalability across applications. We define feature engineering as an agentic code generation problem: features are n",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.25376",
+    "title": "KYA: A Framework-Agnostic Trust Layer for Autonomous Systems with Verifiable Provenance and Hierarchical Policy Composition",
+    "link": "https://arxiv.org/abs/2605.25376",
+    "abstract": "arXiv:2605.25376v2 Announce Type: replace-cross \nAbstract: KYA (Know Your Agents) is an open-source, framework-agnostic trust and governance layer for autonomous systems, composed of five primitives: (1) a four-gate inbound apply pipeline; (2) an only-tighten composition algebra over a three-channel",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.26029",
+    "title": "CausaLab: A Scalable Environment for Interactive Causal Discovery Toward AI Scientists",
+    "link": "https://arxiv.org/abs/2605.26029",
+    "abstract": "arXiv:2605.26029v2 Announce Type: replace \nAbstract: We introduce CausaLab, a scalable environment for evaluating interactive causal discovery by LLM agents. Unlike prior evaluations, CausaLab evaluates both whether an agent can solve a problem using causal evidence and whether its answer is grounde",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.26959",
+    "title": "MerLean-Prover: A Recursive Looping Harness for Lean 4 Theorem Proving",
+    "link": "https://arxiv.org/abs/2605.26959",
+    "abstract": "arXiv:2605.26959v2 Announce Type: replace-cross \nAbstract: MerLean-Prover is an end-to-end Lean4 theorem prover that replaces sorry declarations with kernel-checkable proofs. It is built from three agent types (Planning, Check, and Lean) composed by a recursive outer loop whose unit of revision is t",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.27276",
+    "title": "SIA: Self Improving AI with Harness &amp; Weight Updates",
+    "link": "https://arxiv.org/abs/2605.27276",
+    "abstract": "arXiv:2605.27276v2 Announce Type: replace \nAbstract: Humans are the bottleneck in building and improving AI. Both the models and the agents that wrap them are written, tuned, and corrected by people. The long-horizon goal of an AI that can figure out how to improve itself remains open. Two largely d",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.27373",
+    "title": "Identifying and Understanding Human Values in Text: A Tailorable LLM-based Architecture",
+    "link": "https://arxiv.org/abs/2605.27373",
+    "abstract": "arXiv:2605.27373v1 Announce Type: cross \nAbstract: As intelligent systems become more autonomous, the scientific community focuses on creating decision-making mechanisms that include ethical and moral considerations, unlike traditional utility-maximisation models. To achieve this, a key aspect is as",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.27458",
+    "title": "Generic Interpretation Approach for Transformer Models Incorporating Heterogenous Attention Structures",
+    "link": "https://arxiv.org/abs/2605.27458",
+    "abstract": "arXiv:2605.27458v1 Announce Type: cross \nAbstract: Transformer has significantly propelled the development of artificial intelligence, and certainly the development of agents as well. We categorize attention structures of Transformer into two types based on the source of the input information: homog",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.27788",
+    "title": "Knowing When to Ask: Segment-Level Credit Assignment for LLM Tool Use",
+    "link": "https://arxiv.org/abs/2605.27788",
+    "abstract": "arXiv:2605.27788v1 Announce Type: cross \nAbstract: Humans know when to reach for help e.g. $347 \\times 28$ warrants a calculator while $2+2$ does not. Language models do not. Prompt-based approaches can instruct a model when to invoke tools, but this scaffolding does not teach it to recognize the bo",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.27882",
+    "title": "VibeSearchBench: Benchmarking Long-horizon Proactive Search in the Wild",
+    "link": "https://arxiv.org/abs/2605.27882",
+    "abstract": "arXiv:2605.27882v1 Announce Type: new \nAbstract: LLM-based agents score well on search benchmarks, yet real users consistently find results unsatisfying, revealing a persistent evaluation-experience gap. We attribute this gap to existing benchmarks' reliance on over-specified queries, single-turn in",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.27957",
+    "title": "DisasterBench: Benchmarking LLM Planning under Typed Tool Interface Constraints",
+    "link": "https://arxiv.org/abs/2605.27957",
+    "abstract": "arXiv:2605.27957v1 Announce Type: new \nAbstract: Disasters cause severe societal impacts, demanding rapid coordination of heterogeneous AI tools, from satellite analysis to flood prediction and damage assessment, into coherent multi-step workflows. As LLMs increasingly serve as orchestrators of such",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.27995",
+    "title": "AsyncTool: Evaluating the Asynchronous Function Calling Capability under Multi-Task Scenarios",
+    "link": "https://arxiv.org/abs/2605.27995",
+    "abstract": "arXiv:2605.27995v2 Announce Type: replace \nAbstract: Large language model (LLM)-based agents have shown strong capabilities in using external tools to solve complex tasks. However, existing evaluations often overlook the temporal dimension of tool use, especially the impact of tool response latency,",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28037",
+    "title": "Personality, Role, and Expressive Style in Large Language Models: An Interactionist Analysis",
+    "link": "https://arxiv.org/abs/2605.28037",
+    "abstract": "arXiv:2605.28037v1 Announce Type: new \nAbstract: Prompt-based personality control is a key technique for designing large language model (LLM) dialogue agents that behave consistently across social contexts. However, specifying Big Five personality traits (BFTs) in a prompt does not ensure that the i",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28512",
+    "title": "On Compositional Learning Behaviours in Formal Mathematics",
+    "link": "https://arxiv.org/abs/2605.28512",
+    "abstract": "arXiv:2605.28512v1 Announce Type: new \nAbstract: Self-evolving scientific agents capable of conquering the hard tail of formal mathematics require Compositional Learning Behaviours (CLBs) -- the capacity to ground and recombine novel symbolic structures in context, beyond mere recombination of prele",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28773",
+    "title": "Rethinking Memory as Continuously Evolving Connectivity",
+    "link": "https://arxiv.org/abs/2605.28773",
+    "abstract": "arXiv:2605.28773v1 Announce Type: new \nAbstract: Existing memory-augmented LLM agents often treat memory as a static repository with pre-defined representations and fixed retrieval pipelines, which is brittle in dynamic agentic environments where feedback, task variation, and heterogeneous signals c",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28806",
+    "title": "Personal Visual Memory from Explicit and Implicit Evidence",
+    "link": "https://arxiv.org/abs/2605.28806",
+    "abstract": "arXiv:2605.28806v1 Announce Type: cross \nAbstract: Long-term memory is increasingly important for personalized AI agents, yet existing benchmarks and methods remain largely text-centric. Even when images are included, the user-specific information needed for later questions is typically recoverable ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28814",
+    "title": "Self-Improving Language Models with Bidirectional Evolutionary Search",
+    "link": "https://arxiv.org/abs/2605.28814",
+    "abstract": "arXiv:2605.28814v1 Announce Type: new \nAbstract: Search has been proposed as an effective method for self-improving language models and agentic systems, both for post-training sample generation and for inference. However, widely used methods such as best-of-N sampling and tree search face two fundam",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.CL",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28831",
+    "title": "S3Mem: Structured Spatiotemporal Scene-Event Memory for Long-Horizon Interactive Question Answering",
+    "link": "https://arxiv.org/abs/2605.28831",
+    "abstract": "arXiv:2605.28831v1 Announce Type: cross \nAbstract: Long-horizon interactive agents often accumulate large trajectory histories yet still fail to answer questions about earlier events reliably. We argue that the main bottleneck is not context length alone, but the trajectory-to-answer interface of lo",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28842",
+    "title": "Thoughts-as-Planning: Latent World Models for Chain-of-Thoughts Optimization via Reinforcement Planning",
+    "link": "https://arxiv.org/abs/2605.28842",
+    "abstract": "arXiv:2605.28842v1 Announce Type: cross \nAbstract: The success of large language models (LLMs) across diverse NLP tasks has elevated the importance of reasoning chain optimization as a critical step in aligning model behavior with task objectives. Existing reasoning chain tuning methods often rely o",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28863",
+    "title": "Self-Play Reinforcement Learning under Imperfect Information in Big 2",
+    "link": "https://arxiv.org/abs/2605.28863",
+    "abstract": "arXiv:2605.28863v1 Announce Type: cross \nAbstract: Imperfect-information multiplayer games test whether agents can act under hidden information, sparse rewards, and non-stationary opponents. We study these challenges in Big 2, a four-player imperfect-information card game. We develop a self-play RL ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28873",
+    "title": "Pre-Registering the Detectable Effect: A Paired-MDE Budget for 4-bit Quantization Benchmarks, with a Pilot Audit",
+    "link": "https://arxiv.org/abs/2605.28873",
+    "abstract": "arXiv:2605.28873v1 Announce Type: new \nAbstract: This is a planning-method note with an unpaired pilot audit. We adapt the classical paired-binary sample-size calculation (Miettinen, 1968) to quantization benchmarks, giving a conservative minimum detectable effect (MDE) bound $\\delta^{*} \\le (z_{1-\\",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28876",
+    "title": "LogDx-CI: Benchmarking Log Reduction Tools for LLM Root-Cause Diagnosis",
+    "link": "https://arxiv.org/abs/2605.28876",
+    "abstract": "arXiv:2605.28876v1 Announce Type: cross \nAbstract: CI failure logs are large (median 5k lines, max 200k in this corpus) and noisy. Coding agents that try to debug them depend on an upstream tool to reduce the log to a manageable context, but the field has had no public empirical comparison of which ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28918",
+    "title": "When LLM Reward Design Fails: Diagnostic-Driven Refinement for Sparse Structured RL",
+    "link": "https://arxiv.org/abs/2605.28918",
+    "abstract": "arXiv:2605.28918v1 Announce Type: new \nAbstract: For sparse, structured reinforcement-learning tasks with semantic reward-function interfaces, LLM-generated reward shaping is better framed as debugging than one-shot generation. We study PPO-trained agents using MiniGrid as core evaluation and MuJoCo",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28969",
+    "title": "Beyond Recall: Behavioral Specification as an Interpretive Layer for AI Personalization",
+    "link": "https://arxiv.org/abs/2605.28969",
+    "abstract": "arXiv:2605.28969v1 Announce Type: cross \nAbstract: If an AI agent makes decisions on a person's behalf, those decisions must align with its user. We introduce representational accuracy to measure how faithfully a system captures a person's interpretation. An interpretive layer is operationalized as ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.28984",
+    "title": "The incremental voter model: mean-field analysis and convergence to equilibrium",
+    "link": "https://arxiv.org/abs/2605.28984",
+    "abstract": "arXiv:2605.28984v1 Announce Type: new \nAbstract: We introduce the incremental voter model (IVM), a discrete-opinion multi-agent system where agents undergo step-wise transitions biased by the opinion of a randomly selected persuader. Our incremental voter model comprises a large population of intera",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.MA",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29002",
+    "title": "FedQHD: Closed-Form Function-Space Federated Reinforcement Learning",
+    "link": "https://arxiv.org/abs/2605.29002",
+    "abstract": "arXiv:2605.29002v1 Announce Type: new \nAbstract: Federated reinforcement learning enables decentralized agents to collaboratively improve policies or value estimates without exchanging raw trajectories. However, FedAvg-style parameter averaging is not function-space consistent: when clients use hete",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29032",
+    "title": "Theoretical Foundations and Effective Algorithms for Policy-Aware Simulator Learning",
+    "link": "https://arxiv.org/abs/2605.29032",
+    "abstract": "arXiv:2605.29032v1 Announce Type: new \nAbstract: Model-based reinforcement learning (MBRL) agents typically learn world models by minimizing predictive loss. However, powerful RL optimizers inevitably exploit minor model inaccuracies, leading to simulator exploitation and a reality gap where policie",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29042",
+    "title": "Differentiable Belief-based Opponent Shaping",
+    "link": "https://arxiv.org/abs/2605.29042",
+    "abstract": "arXiv:2605.29042v1 Announce Type: new \nAbstract: Human coordination often relies on the ability to influence the beliefs of others through strategic action. In multi-agent reinforcement learning, opponent shaping attempts to replicate this influence, though existing methods typically operate within ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29072",
+    "title": "Ensemble Score Filtering for Real-Data Energy Consumption Forecast Correction",
+    "link": "https://arxiv.org/abs/2605.29072",
+    "abstract": "arXiv:2605.29072v1 Announce Type: new \nAbstract: Accurate estimation and forecasting of energy consumption are important for power-system operation, planning, and demand-side management. In practice, however, complete and timely measurements may not always be available, and the observed data can be ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29114",
+    "title": "ReasonBreak: Probing Vulnerabilities in Reasoning-Enabled Vision-Language-Action Models for Autonomous Driving",
+    "link": "https://arxiv.org/abs/2605.29114",
+    "abstract": "arXiv:2605.29114v1 Announce Type: cross \nAbstract: Vision-Language-Action (VLA) models with integrated reasoning have been proposed for end-to-end autonomous driving, assuming a tight coupling between reasoning and trajectory generation. However, the robustness of such systems under realistic input ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29138",
+    "title": "Multi-Resolution End-to-End Deep Neural Network for Optimizing Latency-Accuracy Tradeoff in Autonomous Driving",
+    "link": "https://arxiv.org/abs/2605.29138",
+    "abstract": "arXiv:2605.29138v1 Announce Type: cross \nAbstract: Latency-accuracy tradeoffs are fundamental in real-time applications of deep neural networks (DNNs) for cyber-physical systems. In autonomous driving, in particular, safety depends on both prediction quality and the end-to-end delay from sensing to ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29172",
+    "title": "Probabilistic bias adjustment of seasonal forecasts using generative machine learning: A case study of Arctic sea ice predictions",
+    "link": "https://arxiv.org/abs/2605.29172",
+    "abstract": "arXiv:2605.29172v1 Announce Type: new \nAbstract: Seasonal climate predictions support planning and risk management by offering early information of the most likely-to-occur climate conditions in the coming months, and associated uncertainties. Ensemble forecasts enable this by simulating many plausi",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29270",
+    "title": "Indexing the Unreadable: LLM-Native Recursive Construction and Search of Service Taxonomies",
+    "link": "https://arxiv.org/abs/2605.29270",
+    "abstract": "arXiv:2605.29270v1 Announce Type: new \nAbstract: The era of the Internet of Agents (IoA) is taking shape: LLM agents are expected to fulfill user goals by orchestrating fast-growing populations of Model Context Protocol (MCP) servers, Agent-to-Agent (A2A) endpoints, reusable skills, and other LLM-ca",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29271",
+    "title": "CoHyDE: Iterative Co-Training of LLM Rewriter &amp; Dense Encoder for Tool Retrieval",
+    "link": "https://arxiv.org/abs/2605.29271",
+    "abstract": "arXiv:2605.29271v1 Announce Type: new \nAbstract: Tool retrieval over large API catalogs is a core bottleneck for LLM agents: user queries arrive in colloquial, often underspecified language, while the catalog uses technical API vocabulary that no fixed encoder can bridge on its own. The two dominant",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29491",
+    "title": "The Curse of Helpfulness: Inverse Scaling Law in Robustness to Distractor Instructions via DistractionIF",
+    "link": "https://arxiv.org/abs/2605.29491",
+    "abstract": "arXiv:2605.29491v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed in agentic and retrieval-augmented generation (RAG) systems, where they must execute user-specified tasks over externally provided reference text. In practice, such context is often unstructured a",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29511",
+    "title": "DynaGraph: Lightweight Multi-Model Interaction Framework via Dynamic Topological Reconfiguration",
+    "link": "https://arxiv.org/abs/2605.29511",
+    "abstract": "arXiv:2605.29511v1 Announce Type: cross \nAbstract: Tackling complex reasoning tasks typically relies on massive monolithic LLMs, which suffer from severe computational redundancy. While task decomposition through structured pipelines or multi-agent collaborations offers an alternative, these approac",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29518",
+    "title": "Network Optimization Aspects of Autonomous Vehicles: Challenges and Future Directions",
+    "link": "https://arxiv.org/abs/2605.29518",
+    "abstract": "arXiv:2605.29518v1 Announce Type: cross \nAbstract: Global megatrends, such as urbanization, population growth, and emerging network solutions are accelerating the development of the Connected and Autonomous Vehicles (CAVs) industry. There are many truths, some misconceptions, and even some excitemen",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29532",
+    "title": "GUITestScape: Towards Open-set Evaluation on Exploratory GUI Testing",
+    "link": "https://arxiv.org/abs/2605.29532",
+    "abstract": "arXiv:2605.29532v1 Announce Type: cross \nAbstract: Exploratory GUI testing is a particularly demanding setting for MLLM agents: without predefined test scripts, an agent must autonomously navigate an application and discover defects through its own interaction. However, current evaluation falls shor",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29563",
+    "title": "Planning with the Views via Scene Self-Exploration",
+    "link": "https://arxiv.org/abs/2605.29563",
+    "abstract": "arXiv:2605.29563v1 Announce Type: new \nAbstract: Can VLMs predict how each camera move changes the view, and plan many such moves ahead? We call this capability view planning, requiring (1)understanding how a single action transforms the view, and (2)composing many such transformations across multi-",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29568",
+    "title": "DeepTool: Scaling Interleaved Deliberation in Tool-Integrated Reasoning via Process-Supervised Reinforcement Learning",
+    "link": "https://arxiv.org/abs/2605.29568",
+    "abstract": "arXiv:2605.29568v1 Announce Type: new \nAbstract: Tool-Integrated Reasoning (TIR) extends LLM capabilities by leveraging external environments. However, existing methods lack the deliberation during sequential tool invocation required for strategic planning and self-correction. While RL mitigates thi",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29578",
+    "title": "GPS-Enhanced Tourist Mobility Modeling with Seasonal Spatial Priors and LLM-Based Activity Chain Generation",
+    "link": "https://arxiv.org/abs/2605.29578",
+    "abstract": "arXiv:2605.29578v1 Announce Type: new \nAbstract: Tourist mobility poses a distinct challenge for urban transportation planning. Unlike resident commuting, tourist travel is largely non-routine, attraction driven, and highly sensitive to trip purpose, travel season, and trip member composition. Exist",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29601",
+    "title": "Training Deliberative Monitors for Black-Box Scheming Detection",
+    "link": "https://arxiv.org/abs/2605.29601",
+    "abstract": "arXiv:2605.29601v1 Announce Type: cross \nAbstract: As autonomous agents become more capable of performing real-world tasks, distinguishing scheming behavior from benign task pursuit may become a central AI control problem. Existing monitors often rely on chain-of-thought access or internal activatio",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29649",
+    "title": "LLM-Evolved Domain-Independent Heuristics for Symbolic AI Planning",
+    "link": "https://arxiv.org/abs/2605.29649",
+    "abstract": "arXiv:2605.29649v1 Announce Type: new \nAbstract: Heuristic search is the dominant paradigm in symbolic AI planning, and the strongest heuristics are the result of decades of work by planning researchers. Recent work has shown that large language models (LLMs) can design heuristics for individual pla",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29705",
+    "title": "BitTP: The Lightweight Trajectory Prediction Model with BitLLM for Edge-Devices",
+    "link": "https://arxiv.org/abs/2605.29705",
+    "abstract": "arXiv:2605.29705v1 Announce Type: new \nAbstract: Trajectory prediction is a fundamental task for autonomous systems, requiring complex reasoning about multi-agent interactions and intents. Large language models (LLMs) have recently been adopted for this task, as they provide strong contextual reason",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29932",
+    "title": "Treatment-Conditioned Diffusion for Forecasting Neurodegenerative Disease Progression",
+    "link": "https://arxiv.org/abs/2605.29932",
+    "abstract": "arXiv:2605.29932v1 Announce Type: new \nAbstract: Forecasting the progression of neurodegenerative diseases, such as Parkinson's disease, is essential for effective long-term planning and personalized therapeutic intervention. Existing systems typically produce scalar clinical scores that ignore the ",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29935",
+    "title": "CityGen: Structure-Guided City-Style Synthesis for Cross-City Autonomous Driving",
+    "link": "https://arxiv.org/abs/2605.29935",
+    "abstract": "arXiv:2605.29935v1 Announce Type: cross \nAbstract: Autonomous driving systems are commonly trained and evaluated within limited geographic regions, which hinders their scalability when deployed in new cities. However, significant domain shifts in appearance, road topology, and traffic patterns often",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.29955",
+    "title": "Formalizing Mathematics at Scale",
+    "link": "https://arxiv.org/abs/2605.29955",
+    "abstract": "arXiv:2605.29955v1 Announce Type: new \nAbstract: We present AutoformBot, a multi-agent system for building an Autoformalized Textbook Library At Scale (Atlas) in Lean 4. AutoformBot orchestrates thousands of LLM agents, equipped with formal verification tools, dependency-aware task scheduling, and c",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.30003",
+    "title": "Discovering Cooperative Pipelines: Autoresearch for Sequential Social Dilemmas",
+    "link": "https://arxiv.org/abs/2605.30003",
+    "abstract": "arXiv:2605.30003v1 Announce Type: cross \nAbstract: We study two-level autoresearch for cooperation: an outer-loop AI agent autonomously redesigns the inner-loop pipeline of an LLM policy-synthesis system for multi-agent Sequential Social Dilemmas (SSDs). A researcher agent $\\mathcal{R}$ (run as a co",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.30087",
+    "title": "Selective QA over Conflicting Multi-Source Personal Memory: A Diagnostic Testbed and Method Comparison",
+    "link": "https://arxiv.org/abs/2605.30087",
+    "abstract": "arXiv:2605.30087v1 Announce Type: new \nAbstract: Emerging personal AI agents are moving toward persistent, multi-source memory. This creates an evaluation problem: systems must decide how to use conflicting or incomplete evidence; they cannot just retrieve facts from one clean history. Existing benc",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.30096",
+    "title": "How Reliable Are AI Attackers Against a Fixed Vulnerable Target? A 400-Run Empirical Study of LLM Penetration Testing Consistency",
+    "link": "https://arxiv.org/abs/2605.30096",
+    "abstract": "arXiv:2605.30096v1 Announce Type: cross \nAbstract: Large language models (LLMs) can autonomously conduct multi-stage cyber attacks, but the consistency of their offensive behavior under repeated trials remains unstudied. This work presents the first large-scale empirical measurement of LLM attack co",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.30208",
+    "title": "Automating Low-Risk Code Review at Meta: RADAR, Risk Calibration, and Review Efficiency",
+    "link": "https://arxiv.org/abs/2605.30208",
+    "abstract": "arXiv:2605.30208v1 Announce Type: cross \nAbstract: AI-assisted coding tools have altered software production. At Meta, significant lines of code per human-landed diff grew by 105.9% year over year and per-developer diff volume rose 51%, with agentic AI responsible for over 80% of that growth. Meanwh",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.30318",
+    "title": "Before the Shutter: Aesthetic and Actionable Portrait Photography Planning in 3D Scenes",
+    "link": "https://arxiv.org/abs/2605.30318",
+    "abstract": "arXiv:2605.30318v1 Announce Type: cross \nAbstract: Portrait photography is largely decided before the shutter opens: the subject's pose, the camera configuration, and the lighting devices must be coordinated within the surrounding 3D scene. In contrast, most existing computational methods focus on p",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.30322",
+    "title": "Gram: Assessing sabotage propensities via automated alignment auditing",
+    "link": "https://arxiv.org/abs/2605.30322",
+    "abstract": "arXiv:2605.30322v1 Announce Type: cross \nAbstract: We introduce Gram, an automated alignment auditing framework to assess the propensity of AI agents to engage in sabotage. We evaluate Gemini models across 17 simulated agentic deployment scenarios that incentivize sabotage. We find Gemini models mis",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  },
+  {
+    "id": "2605.30329",
+    "title": "SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?",
+    "link": "https://arxiv.org/abs/2605.30329",
+    "abstract": "arXiv:2605.30329v1 Announce Type: new \nAbstract: Autonomous AI research agents aim to accelerate scientific discovery by automating the research pipeline, from hypothesis generation to peer review. However, existing benchmarks rarely test a fundamental bottleneck: whether Large Language Models can j",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.LG",
+    "relevance": 3
+  },
+  {
+    "id": "2605.30353",
+    "title": "Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
+    "link": "https://arxiv.org/abs/2605.30353",
+    "abstract": "arXiv:2605.30353v1 Announce Type: new \nAbstract: Are AI agents tools, co-authors, or researchers? We present a quantified case study ($N=1$): a physicist supervising an AI coding agent (Claude Code, Sonnet and Opus models) over 12 work days and 57 sessions to build CLAX-PT, a differentiable one-loop",
+    "pubdate": "Fri, 29 May 2026 00:00:00 -0400",
+    "category": "cs.AI",
+    "relevance": 3
+  }
+]

@@ -1,0 +1,298 @@
+{
+  "fetched_at": "2026-06-05T09:13:36.015448Z",
+  "hacker_news": {
+    "source": "https://hacker-news.firebaseio.com/v0/topstories.json",
+    "stories": [
+      {
+        "title": "VoidZero Is Joining Cloudflare",
+        "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+        "score": 636,
+        "comments": 274,
+        "by": "coloneltcb",
+        "time": "2026-06-04T13:00:51Z",
+        "hn_id": 48398055
+      },
+      {
+        "title": "SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
+        "score": 546,
+        "comments": 261,
+        "by": "tristanj",
+        "time": "2026-06-04T22:48:19Z",
+        "hn_id": 48405718
+      },
+      {
+        "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+        "url": "https://github.com/anthropics/defending-code-reference-harness",
+        "score": 412,
+        "comments": 117,
+        "by": "binyu",
+        "time": "2026-06-04T20:11:20Z",
+        "hn_id": 48403980
+      },
+      {
+        "title": "Retro-Tech Parenting",
+        "url": "https://havenweb.org/2026/05/28/retro-tech.html",
+        "score": 296,
+        "comments": 204,
+        "by": "mawise",
+        "time": "2026-06-04T16:02:35Z",
+        "hn_id": 48400588
+      },
+      {
+        "title": "Meta enables ADB on deprecated Portal devices [video]",
+        "url": "https://fb.watch/HxPu0fSyeH/",
+        "score": 218,
+        "comments": 78,
+        "by": "jenders",
+        "time": "2026-06-05T00:44:38Z",
+        "hn_id": 48406640
+      },
+      {
+        "title": "Open Code Review – An AI-powered code review CLI tool",
+        "url": "https://github.com/alibaba/open-code-review",
+        "score": 176,
+        "comments": 44,
+        "by": "geoffbp",
+        "time": "2026-06-05T00:04:29Z",
+        "hn_id": 48406358
+      },
+      {
+        "title": "Branchless Quicksort faster than std:sort and pdqsort with C and C++ API",
+        "url": "https://tiki.li/blog/blqsort",
+        "score": 170,
+        "comments": 51,
+        "by": "birdculture",
+        "time": "2026-06-02T20:00:54Z",
+        "hn_id": 48375445
+      },
+      {
+        "title": "I'm skeptical about efforts to revolutionize schooling",
+        "url": "https://www.scotthyoung.com/blog/2026/05/27/revolutionize-schooling/",
+        "score": 169,
+        "comments": 252,
+        "by": "andrewstuart",
+        "time": "2026-06-02T20:43:39Z",
+        "hn_id": 48376008
+      },
+      {
+        "title": "Do transformers need three projections? Systematic study of QKV variants",
+        "url": "https://arxiv.org/abs/2606.04032",
+        "score": 164,
+        "comments": 32,
+        "by": "Anon84",
+        "time": "2026-06-04T23:11:56Z",
+        "hn_id": 48405931
+      },
+      {
+        "title": "Samurai City",
+        "url": "https://worksinprogress.co/issue/samurai-city/",
+        "score": 162,
+        "comments": 32,
+        "by": "zdw",
+        "time": "2026-06-02T04:32:19Z",
+        "hn_id": 48366090
+      },
+      {
+        "title": "C++: The Documentary",
+        "url": "https://herbsutter.com/2026/06/04/c-the-documentary-released-today/",
+        "score": 138,
+        "comments": 63,
+        "by": "ingve",
+        "time": "2026-06-05T04:37:01Z",
+        "hn_id": 48408016
+      },
+      {
+        "title": "WSL 2 is getting faster Windows file system access",
+        "url": "https://www.boxofcables.dev/wsl2-per-device-swiotlb-pools-for-virtiofs-and-virtioproxy/",
+        "score": 137,
+        "comments": 99,
+        "by": "haydenbarnes",
+        "time": "2026-06-04T19:21:18Z",
+        "hn_id": 48403377
+      },
+      {
+        "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+        "url": "https://github.com/huawei-csl/KVarN",
+        "score": 133,
+        "comments": 13,
+        "by": "theanonymousone",
+        "time": "2026-06-04T15:18:00Z",
+        "hn_id": 48399974
+      },
+      {
+        "title": "Changing How We Develop Ladybird",
+        "url": "https://ladybird.org/posts/changing-how-we-develop-ladybird/",
+        "score": 118,
+        "comments": 57,
+        "by": "EdwinHoksberg",
+        "time": "2026-06-05T07:26:33Z",
+        "hn_id": 48409191
+      },
+      {
+        "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
+        "url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
+        "score": 109,
+        "comments": 89,
+        "by": "haydenbarnes",
+        "time": "2026-06-05T03:14:28Z",
+        "hn_id": 48407499
+      },
+      {
+        "title": "Queen bees emerge from special wax chambers",
+        "url": "https://cen.acs.org/materials/biobased-materials/queen-bees-special-wax/104/web/2026/06",
+        "score": 78,
+        "comments": 11,
+        "by": "gmays",
+        "time": "2026-06-04T21:31:31Z",
+        "hn_id": 48404905
+      },
+      {
+        "title": "WiFi Time",
+        "url": "https://mitxela.com/projects/wifi_time",
+        "score": 71,
+        "comments": 4,
+        "by": "surprisetalk",
+        "time": "2026-06-02T14:30:14Z",
+        "hn_id": 48370775
+      },
+      {
+        "title": "Fine-tuning an LLM to write docs like it's 1995",
+        "url": "https://passo.uno/fine-tuning-docs-llm/",
+        "score": 53,
+        "comments": 15,
+        "by": "taubek",
+        "time": "2026-06-05T05:46:06Z",
+        "hn_id": 48408442
+      },
+      {
+        "title": "Reverse-Engineered Userspace Driver for Asus ZenVision Lid OLED on Linux\"",
+        "url": "https://github.com/tarpediem/zenvision-linux",
+        "score": 51,
+        "comments": 11,
+        "by": "berlianta",
+        "time": "2026-06-02T10:29:01Z",
+        "hn_id": 48368338
+      },
+      {
+        "title": "The IsUpMap lets you check the status of over 100 major sites at once",
+        "url": "https://isupmap.com/",
+        "score": 46,
+        "comments": 21,
+        "by": "mikelgan",
+        "time": "2026-06-05T04:44:48Z",
+        "hn_id": 48408067
+      },
+      {
+        "title": "Magenta RealTime 2: Open and Local Live Music Models",
+        "url": "https://magenta.withgoogle.com/magenta-realtime-2",
+        "score": 35,
+        "comments": 5,
+        "by": "selvan",
+        "time": "2026-06-05T04:09:53Z",
+        "hn_id": 48407815
+      },
+      {
+        "title": "Go Experiments Explained",
+        "url": "https://www.alexedwards.net/blog/go-experiments-explained",
+        "score": 32,
+        "comments": 10,
+        "by": "ingve",
+        "time": "2026-06-01T08:39:31Z",
+        "hn_id": 48354136
+      },
+      {
+        "title": "Delacroix's Entry of the Crusaders into Constantinople Restored",
+        "url": "https://www.louvre.fr/en/explore/life-at-the-museum/delacroix-s-entry-of-the-crusaders-into-constantinople-restored-to-its-original-glory",
+        "score": 29,
+        "comments": 9,
+        "by": "rawgabbit",
+        "time": "2026-06-05T02:48:44Z",
+        "hn_id": 48407368
+      },
+      {
+        "title": "Leap in DNA synthesis slashes time to build new genetic sequences",
+        "url": "https://spectrum.ieee.org/faster-dna-synthesis-sidewinder",
+        "score": 22,
+        "comments": 6,
+        "by": "natalcleft",
+        "time": "2026-06-04T17:51:10Z",
+        "hn_id": 48402116
+      },
+      {
+        "title": "Watching a Z80 from an RP2350",
+        "url": "https://emalliab.wordpress.com/2026/05/26/watching-a-z80-from-an-rp2350/",
+        "score": 19,
+        "comments": 0,
+        "by": "ibobev",
+        "time": "2026-06-02T18:18:01Z",
+        "hn_id": 48374049
+      },
+      {
+        "title": "Linear Cosine Palettes(2025)",
+        "url": "https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/",
+        "score": 16,
+        "comments": 0,
+        "by": "num42",
+        "time": "2026-06-05T03:40:02Z",
+        "hn_id": 48407653
+      },
+      {
+        "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
+        "url": "https://github.com/geo-tp/ESP32-Bit-Pirate",
+        "score": 15,
+        "comments": 8,
+        "by": "geotp",
+        "time": "2026-06-05T07:40:04Z",
+        "hn_id": 48409306
+      },
+      {
+        "title": "databow: a Rust CLI to query any database with an ADBC driver",
+        "url": "https://columnar.tech/blog/introducing-databow//",
+        "score": 7,
+        "comments": 0,
+        "by": "hckshr",
+        "time": "2026-06-02T23:11:13Z",
+        "hn_id": 48377510
+      },
+      {
+        "title": "Entanglement Builds Space-Time. Now \"Magic\" Gives It Gravity",
+        "url": "https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/",
+        "score": 5,
+        "comments": 0,
+        "by": "rbanffy",
+        "time": "2026-06-05T08:33:37Z",
+        "hn_id": 48409675
+      },
+      {
+        "title": "There's no escaping it: an exploration of ANSI codes",
+        "url": "https://blog.safia.rocks/2025/12/22/ansi-codes/",
+        "score": 5,
+        "comments": 2,
+        "by": "ankitg12",
+        "time": "2026-06-05T07:02:14Z",
+        "hn_id": 48408995
+      }
+    ]
+  },
+  "reddit": {
+    "MachineLearning": [],
+    "artificial": [],
+    "LangChain": []
+  },
+  "errors": [
+    "r/MachineLearning: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/MachineLearning/hot.json?limit=5 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.reddit.com', port=443) at 0x103a8d310>, 'Connection to www.reddit.com timed out. (connect timeout=8)'))",
+    "r/artificial: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/artificial/hot.json?limit=5 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.reddit.com', port=443) at 0x103a8f3d0>, 'Connection to www.reddit.com timed out. (connect timeout=8)'))",
+    "r/LangChain: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/LangChain/hot.json?limit=5 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.reddit.com', port=443) at 0x103a83250>, 'Connection to www.reddit.com timed out. (connect timeout=8)'))"
+  ],
+  "summary": {
+    "hn_stories_fetched": 30,
+    "reddit_posts_fetched": 0,
+    "reddit_subreddits": [
+      "MachineLearning",
+      "artificial",
+      "LangChain"
+    ],
+    "total_items": 30
+  }
+}

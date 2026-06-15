@@ -1,0 +1,307 @@
+[
+  {
+    "arxiv_id": "2605.28775",
+    "title": "Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents",
+    "authors": [
+      "Suji Kim",
+      "Kangsan Kim",
+      "Sung Ju Hwang"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Computer-use agents (CUAs) have recently made substantial progress, but deploying a separate large expert for each software domain remains expensive. Small open computer-use agents are more practical specialization targets, but they remain substantially weaker and exhibit uneven domain-specific fail[ures patterns].",
+    "pdf_link": "https://arxiv.org/pdf/2605.28775"
+  },
+  {
+    "arxiv_id": "2605.28774",
+    "title": "Agent Explorative Policy Optimization for Multimodal Agentic Reasoning",
+    "authors": [
+      "Minki Kang",
+      "Shizhe Diao",
+      "Ryo Hachiuma",
+      "Sung Ju Hwang",
+      "Pavlo Molchanov"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Vision-language models with extended reasoning succeed on complex problems, but many real-world problems require external tools that internal reasoning alone often cannot resolve. Agentic reasoning therefore interleaves two behaviors with a structural asymmetry: thinking (the self-contained default)...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28774"
+  },
+  {
+    "arxiv_id": "2605.28655",
+    "title": "AutoScientists: Self-Organizing Agent Teams for Long-Running Scientific Experimentation",
+    "authors": [
+      "Shanghua Gao",
+      "Ada Fang",
+      "Marinka Zitnik"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Scientific research proceeds through iterative cycles of hypothesis generation, experiment design, execution, and revision. AI agents can automate parts of this process, but existing approaches typically follow a single research trajectory or coordinate through a central planner with fixed objective[s]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28655"
+  },
+  {
+    "arxiv_id": "2605.28629",
+    "title": "Mobile-Aptus: Confidence-Driven Proactive and Robust Interaction in MLLM-based Mobile-Using Agents",
+    "authors": [
+      "Zheng Wu",
+      "Pengzhou Cheng",
+      "Zongru Wu",
+      "Yuan Guo",
+      "Tianjie Ju"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Recent advancements in multimodal large language models (MLLMs) have shown exceptional potential in enabling mobile-using agents to autonomously execute human instructions. However, fully automated agents often try to execute tasks even when they are unable to resolve them, leading to the problem of [unrecoverable failures]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28629"
+  },
+  {
+    "arxiv_id": "2605.28617",
+    "title": "LACUNA: Safe Agents as Recursive Program Holes",
+    "authors": [
+      "Yaoyu Zhao",
+      "Yichen Xu",
+      "Oliver Bra\u010devac",
+      "Cao Nguyen Pham",
+      "Frank Zhengqing Wu"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.AI",
+      "cs.PL"
+    ],
+    "abstract": "LLM agents increasingly act by writing code, yet a split persists between the runtime that drives the agent and the code the model writes. The runtime owns the loop, context, and control flow, and the model has little say over any of them. Letting model-written code shape the runtime itself would ma[ke agents more powerful]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28617"
+  },
+  {
+    "arxiv_id": "2605.28607",
+    "title": "Adaptive Multimodal Agents-Based Framework for Automatic Workflow Execution",
+    "authors": [
+      "Susanna Cifani",
+      "Mario Luca Bernardi",
+      "Marta Cimitile"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Modern information systems require autonomous agents capable of navigating complex workflows, yet current methodologies often struggle with the transition from structured metadata parsing to general environmental perception. While the integration of MLLMs has enabled agents to interact directly with [complex environments]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28607"
+  },
+  {
+    "arxiv_id": "2605.28598",
+    "title": "Evaluating the Realism of LLM-powered Social Agents: A Case Study of Reactions to Spanish Online News",
+    "authors": [
+      "Alejandro Buitrago L\u00f3pez",
+      "Alberto Ortega Pastor",
+      "Javier Pastor-Galindo",
+      "Jos\u00e9 A. Ruip\u00e9rez-Valiente"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "LLM-powered social agents are increasingly used to simulate online social behavior, yet their realism remains difficult to validate. Existing work has largely relied on general-purpose benchmarks, while less attention has been paid to short, reactive discourse such as audience replies to online news...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28598"
+  },
+  {
+    "arxiv_id": "2605.28556",
+    "title": "A Matter of TASTE: Improving Coverage and Difficulty of Agent Benchmarks",
+    "authors": [
+      "Tomer Keren",
+      "Nitay Calderon",
+      "Asaf Yehudai",
+      "Yotam Perlitz",
+      "Michal Shmueli-Scheuer"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "As agent capabilities advance, existing benchmarks, such as $\\tau^2$-Bench, are becoming increasingly saturated. Yet constructing new benchmark tasks remains complex, costly, and labor-intensive. Moreover, the standard approach, in which scenarios are first written in natural language and then mapped [to executable form]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28556"
+  },
+  {
+    "arxiv_id": "2605.28534",
+    "title": "GUI-CIDER: Mid-training GUI Agents via Causal Internalization and Density-aware Exemplar Reselection",
+    "authors": [
+      "Zheng Wu",
+      "Chengcheng Han",
+      "Zhengxi Lu",
+      "Tianjie Ju",
+      "Yanyu Chen"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Despite the rapid progress of multimodal large language models in building Graphical User Interface (GUI) agents, their real-world task completion is fundamentally bottlenecked by a lack of world knowledge about GUI operations. Existing solutions typically rely on expensive multi-agent scaffolding or [heavy prompting]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28534"
+  },
+  {
+    "arxiv_id": "2605.28532",
+    "title": "Do Agents Know What They Can't Do? Evaluating Feasibility Awareness in Tool-Using Agents",
+    "authors": [
+      "Liang Cheng",
+      "Mingsheng Cai",
+      "Jiuming Jiang",
+      "Luo Mai"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Tool-using agents often incur substantial computational cost due to long reasoning chains and iterative tool usage. In practical scenarios, many tasks become infeasible under constrained tool environments, where the capabilities required for successful task completion are unavailable. Detecting infeas[ible tasks early can save resources]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28532"
+  },
+  {
+    "arxiv_id": "2605.28465",
+    "title": "Beyond One Path: Evaluating and Enhancing Divergent Thinking in Interactive LLM Agents",
+    "authors": [
+      "Jihyeong Park",
+      "Ingeol Baek",
+      "Jeonghyun Park",
+      "Hwanhee Lee"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Divergent thinking is a core dimension of creativity, yet existing evaluations of Large Language Models (LLMs) treat them as single-turn text generations, failing to capture how an agent reasons through iterative interaction. To address this, we introduce MUTATE, an interactive benchmark designed to [evaluate divergent thinking]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28465"
+  },
+  {
+    "arxiv_id": "2605.28433",
+    "title": "Roles with Rails: Contract-Preserving Role Evolution in Multi-Agent Structured Reasoning",
+    "authors": [
+      "Ling-Yue Ge",
+      "Lan-Zhe Guo"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Role-based LLM multi-agent systems need adaptive role pools, yet adapting such systems is not merely a matter of prompt optimization: roles often carry structural obligations, including capability coverage, message compatibility, validation, final-answer aggregation, and parser-compatible output for[matting]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28433"
+  },
+  {
+    "arxiv_id": "2605.28424",
+    "title": "Skill0.5: Joint Skill Internalization and Utilization for Out-of-Distribution Generalization in Agentic Reinforcement Learning",
+    "authors": [
+      "Jiapeng Zhu",
+      "Jianxiang Yu",
+      "Yibo Zhao",
+      "Chengcheng Han",
+      "Qi Gu"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Equipping large language models with explicit skills has emerged as a promising paradigm for enabling autonomous agents to solve complex tasks. Agent skills can be inherently divided into general skills for broad cognitive transfer and task-specific skills for dynamic execution. However, existing sk[ill learning methods]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28424"
+  },
+  {
+    "arxiv_id": "2605.28371",
+    "title": "From paper to benchmark: agentic, framework-based reproduction of under-specified methods in machine health intelligence",
+    "authors": [
+      "Raffael Theiler",
+      "Ludovico Comito",
+      "David Leko",
+      "Leandro Von Krannichfeldt",
+      "Lev Telyatnikov"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.SE"
+    ],
+    "abstract": "Industrial Prognostics and Health Management (PHM) provides a representative case study for a broader challenge in applied machine learning: translating published papers into executable, benchmark-ready implementations. Reproducing under-specified methods in PHM is particularly difficult due to rest[ricted datasets]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28371"
+  },
+  {
+    "arxiv_id": "2605.28369",
+    "title": "CyberJurors: A Multi-Agent Simulation Task for E-Commerce Disputes Verdict",
+    "authors": [
+      "Yanhui Sun",
+      "Wu Liu",
+      "Haifeng Ming",
+      "Xinru Wang",
+      "Hantao Yao"
+    ],
+    "published": "2026-05-28",
+    "categories": [
+      "cs.AI",
+      "cs.SI"
+    ],
+    "abstract": "E-commerce platforms have begun recruiting crowdsourced jurors to adjudicate massive volumes of transaction disputes. Unlike formal legal judgment, E-commerce dispute verdicts require grounding pivotal clues from redundant, multi-round, multimodal evidence and making decisions under flexible platform [constraints]...",
+    "pdf_link": "https://arxiv.org/pdf/2605.28369"
+  },
+  {
+    "arxiv_id": "2605.28764",
+    "title": "SwarmHarness: Skill-Based Task Routing via Decentralized Incentive-Aligned AI Agent Networks",
+    "authors": [
+      "Edwin Jose"
+    ],
+    "published": "2026-05-27",
+    "categories": [
+      "cs.AI",
+      "cs.DC",
+      "cs.MA"
+    ],
+    "abstract": "Vast quantities of compute (GPU cycles on personal workstations, idle inference servers, and edge devices between jobs) go unused because no incentive-aligned protocol exists for their owners to share them safely and profitably. Existing approaches either require a trusted central coordinator (cloud marketplaces), demand heavy blockchain infrastructure (Golem, BrokerChain), or lack an incentive layer entirely (BOINC, Petals). We propose SwarmHarness, a decentralised protocol in which HarnessAPI skill nodes self-organise into a compute swarm without any central authority.",
+    "pdf_link": "https://arxiv.org/pdf/2605.28764"
+  },
+  {
+    "arxiv_id": "2605.28721",
+    "title": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know?",
+    "authors": [
+      "HuiMing Fan",
+      "Xiao Wang",
+      "Zheng Chu",
+      "Qianyu Wang",
+      "Zhuoyao Wang",
+      "Ming Liu",
+      "Bing Qin",
+      "XingYu"
+    ],
+    "published": "2026-05-27",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Are LLM-based search agents genuinely searching, or using the web to verify what they already know? We study this question on BrowseComp with three diagnostics. Our analysis reveals Intrinsic Knowledge Dependence (IKD): even with tool access, agents often rely on intrinsic knowledge -- information encoded in the model before retrieval -- rather than on external evidence. Agents answer up to 44.5% of BrowseComp questions without tools, generate more than half of their search queries from internally produced hypotheses rather than retrieved leads, and perform worse than closed-book baselines when answer-supporting evidence is removed.",
+    "pdf_link": "https://arxiv.org/pdf/2605.28721"
+  },
+  {
+    "arxiv_id": "2605.28683",
+    "title": "VeriTrip: A Verifiable Benchmark for Travel Planning Agents over Unstructured Web Corpora",
+    "authors": [
+      "Yuting Xu",
+      "Jiayi Tian",
+      "Jian Liang",
+      "Xin Xiong",
+      "Hang Zhang",
+      "Mu Xu",
+      "Xiao-Yu Zhang"
+    ],
+    "published": "2026-05-27",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Existing benchmarks have laid the foundation for travel planning agents by establishing API-centric paradigms. However, as the capabilities of Autonomous Agents continue to advance, their evaluation must evolve beyond simple tool execution toward handling the inherent complexities of the open web. Current benchmarks bypass core cognitive hurdles: they fail to account for information noise, ignore multi-source factual contradictions, and overlook the necessity of grounding visual perception into logical planning.",
+    "pdf_link": "https://arxiv.org/pdf/2605.28683"
+  }
+]

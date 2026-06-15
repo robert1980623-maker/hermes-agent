@@ -1,0 +1,213 @@
+{
+  "generated_at": "2026-05-30T17:30:36.452349",
+  "method": "RSS feed via rss2json.com (Reddit direct access blocked by network firewall)",
+  "subreddits": {
+    "r/MachineLearning": {
+      "total_items_returned": 10,
+      "posts": [
+        {
+          "title": "[D] Self-Promotion Thread",
+          "author": "/u/AutoModerator",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1t1d2m0/d_selfpromotion_thread/",
+          "published": "2026-05-02 02:15:08",
+          "hours_ago": null,
+          "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to "
+        },
+        {
+          "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+          "author": "/u/AutoModerator",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1t0gle1/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+          "published": "2026-05-01 02:30:08",
+          "hours_ago": null,
+          "summary": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this template Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocati"
+        },
+        {
+          "title": "How long does it realistically take for you to produce an ICML/NeurIPS/ICLR-level paper? [D]",
+          "author": "/u/Hope999991",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1tr9fa1/how_long_does_it_realistically_take_for_you_to/",
+          "published": "2026-05-29 17:38:14",
+          "hours_ago": null,
+          "summary": "Hey everyone, Since there are many researchers here who regularly publish at top-tier ML conferences like ICML, NeurIPS, and ICLR, I wanted to ask about realistic paper timelines. In your lab or research setting, how long does it usually take to develop a paper from the initial idea to a complete su"
+        },
+        {
+          "title": "Graduating Without a PhD Internship [D]",
+          "author": "/u/NumberGenerator",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1trn6ye/graduating_without_a_phd_internship_d/",
+          "published": "2026-05-30 02:27:22",
+          "hours_ago": null,
+          "summary": "In early 2022, I was deciding between PhD offers. The deal maker was a prospective supervisor telling me that through their connections with big tech, I would be able to do a PhD internship each summer, which was one of my main goals for the PhD. During my first and second years, they would tell me "
+        },
+        {
+          "title": "How Much of a Shortcut Are Connections in Top AI Lab Hiring for PhD grads? [D]",
+          "author": "/u/South-Conference-395",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1tr80ll/how_much_of_a_shortcut_are_connections_in_top_ai/",
+          "published": "2026-05-29 16:52:19",
+          "hours_ago": null,
+          "summary": "hi everyone. I'm trying to calibrate my expectations and would appreciate full honest perspectives from people involved/ with experience in hiring at places like Anthropic, OpenAI, Google DeepMind, Meta, etc (haven't started interviewing yet). I'm at a top ML university, but my advisor is not partic"
+        },
+        {
+          "title": "Requesting reduction in reviewer load for NeuRIPS? [D]",
+          "author": "/u/movieingitmyway",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1trqnbn/requesting_reduction_in_reviewer_load_for_neurips/",
+          "published": "2026-05-30 05:17:07",
+          "hours_ago": null,
+          "summary": "I didn't submit any but did place bids on some papers. I got assigned four papers. I have a bit of travel coming up and I don't think I will be able to do justice to as many the papers, especially in the rebuttal period. Is this the standard reviewing load? In other communities I submit to, generall"
+        },
+        {
+          "title": "Event like spiking neuron lib that fits into the CPU cache [P]",
+          "author": "/u/Logical_Prompt_3543",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1trq5o3/event_like_spiking_neuron_lib_that_fits_into_the/",
+          "published": "2026-05-30 04:51:53",
+          "hours_ago": null,
+          "summary": "I benchmarked it against PyTorch with a Wikipedia dataset. I heavily used Gemini Flash 3.5 to build out my vision https://huggingface.co/etoxin/neuronguard-wikipedia-classifier submitted by /u/Logical_Prompt_3543 [link] [comments]"
+        },
+        {
+          "title": "ICML paper checker is down? [D]",
+          "author": "/u/KiddWantidd",
+          "link": "https://www.reddit.com/r/MachineLearning/comments/1tr127y/icml_paper_checker_is_down_d/",
+          "published": "2026-05-29 12:57:09",
+          "hours_ago": null,
+          "summary": "I was getting ready to upload my camera-ready paper to ICML (few minutes before the deadline... no comments), but the paper checker site seemingly went down before I could finish... I emailed the publication chairs already but i just wanted to know if anyone else was in the same situation, and if th"
+        }
+      ]
+    },
+    "r/artificial": {
+      "total_items_returned": 10,
+      "posts": [
+        {
+          "title": "Mystery company accidentally blew $500 million on Claude AI in a single month \u2014 failed to put usage limit on licenses for employees",
+          "author": "/u/chota-kaka",
+          "link": "https://www.reddit.com/r/artificial/comments/1trmvgh/mystery_company_accidentally_blew_500_million_on/",
+          "published": "2026-05-30 02:12:26",
+          "hours_ago": null,
+          "summary": "A mysterious, unnamed company is reported to have accidentally spent half a billion dollars in a single month on Claude AI after forgetting to set usage limits for Claude licenses for employees. submitted by /u/chota-kaka [link] [comments]"
+        },
+        {
+          "title": "Ronny Chieng Tells Harvard to \u2018Destroy AI\u2019 as Graduates Cheer",
+          "author": "/u/InvestigatorSoft5764",
+          "link": "https://www.reddit.com/r/artificial/comments/1trfunt/ronny_chieng_tells_harvard_to_destroy_ai_as/",
+          "published": "2026-05-29 21:13:29",
+          "hours_ago": null,
+          "summary": "submitted by /u/InvestigatorSoft5764 [link] [comments]"
+        },
+        {
+          "title": "Meta lays off more than 2,000 from Menlo Park headquarters",
+          "author": "/u/sfgate",
+          "link": "https://www.reddit.com/r/artificial/comments/1trevkk/meta_lays_off_more_than_2000_from_menlo_park/",
+          "published": "2026-05-29 20:37:02",
+          "hours_ago": null,
+          "summary": "submitted by /u/sfgate [link] [comments]"
+        },
+        {
+          "title": "Your brain does on 20 watts what AI needs a nuclear reactor to attempt. Last week a team figured out how to print something that actually speaks to living brain cells.",
+          "author": "/u/filmguy_1987",
+          "link": "https://www.reddit.com/r/artificial/comments/1tr4kau/your_brain_does_on_20_watts_what_ai_needs_a/",
+          "published": "2026-05-29 15:01:27",
+          "hours_ago": null,
+          "summary": "Amazon bought a 960 megawatt nuclear reactor for AI servers. Microsoft restarted Three Mile Island. Stargate is spending 500 billion dollars on data centres. All of this to do, badly, what your brain does for free on the power of a dim light bulb. The reason is that silicon processes information not"
+        },
+        {
+          "title": "Anthropic Tops OpenAI to Become the World\u2019s Most Valuable A.I. Start-Up",
+          "author": "/u/chunmunsingh",
+          "link": "https://www.reddit.com/r/artificial/comments/1trli22/anthropic_tops_openai_to_become_the_worlds_most/",
+          "published": "2026-05-30 01:08:15",
+          "hours_ago": null,
+          "summary": "Anthropic raised $65 billion in new fund-raising that put its value at $900 billion, ahead of OpenAI\u2019s last valuation of $730 billion, as the companies duel for A.I. dominance. Anthropic, once the lesser-known artificial intelligence competitor to OpenAI, has been on an inexorable rise over the past"
+        },
+        {
+          "title": "Anthropic overtakes OpenAI as the most valuable AI startup at $965B",
+          "author": "/u/CostaGraphic",
+          "link": "https://www.reddit.com/r/artificial/comments/1tr0chv/anthropic_overtakes_openai_as_the_most_valuable/",
+          "published": "2026-05-29 12:28:48",
+          "hours_ago": null,
+          "summary": "submitted by /u/CostaGraphic [link] [comments]"
+        },
+        {
+          "title": "Microsoft data suggests using AI is more expensive than hiring people",
+          "author": "/u/Hot-Upstairs9603",
+          "link": "https://www.reddit.com/r/artificial/comments/1tqm10c/microsoft_data_suggests_using_ai_is_more/",
+          "published": "2026-05-29 00:48:14",
+          "hours_ago": null,
+          "summary": "submitted by /u/Hot-Upstairs9603 [link] [comments]"
+        },
+        {
+          "title": "Learning to Skip Blocks: Self-Discovered Ultrametric Routing for Hardware-Accelerated Sparse Attention",
+          "author": "/u/LooseSwing88",
+          "link": "https://www.reddit.com/r/artificial/comments/1trqc3h/learning_to_skip_blocks_selfdiscovered/",
+          "published": "2026-05-30 05:01:00",
+          "hours_ago": null,
+          "summary": "Abstract. Standard dense self-attention scales quadratically in sequence length, creating an intractable memory and compute bottleneck for long-context Transformers. We introduce Dynamic Ultrametric Attention, a framework in which a Transformer autonomously learns per-head block-sparse routing topol"
+        }
+      ]
+    },
+    "r/LangChain": {
+      "total_items_returned": 10,
+      "posts": [
+        {
+          "title": "RAG Quality is the bottleneck: Why a purpose-built knowledge base beats a DIY Vector DB.",
+          "author": "/u/Notkartavya",
+          "link": "https://www.reddit.com/r/LangChain/comments/1tru42h/rag_quality_is_the_bottleneck_why_a_purposebuilt/",
+          "published": "2026-05-30 08:26:29",
+          "hours_ago": null,
+          "summary": "Karpathy's LLM Wiki works because it's a RAG system. But RAG quality isn't about the vector database; it's about the upstream ingestion, chunking, and metadata tagging. My attempts to roll my own vector DB/LangChain pipeline kept failing on data quality\u2014messy PDFs, broken chunking, and poor embeddin"
+        },
+        {
+          "title": "60% of teams can't terminate a misbehaving agent mid-run. How are you handling kill switches?",
+          "author": "/u/Cybertron__",
+          "link": "https://www.reddit.com/r/LangChain/comments/1trsqat/60_of_teams_cant_terminate_a_misbehaving_agent/",
+          "published": "2026-05-30 07:07:39",
+          "hours_ago": null,
+          "summary": "Came across this stat in a recent security report and it's been sitting with me: 60% of organizations running AI agents in production cannot terminate a misbehaving agent once it's running. Not \"it's difficult.\" Not \"it takes a few minutes.\" Cannot. We've built kill switches into every other automat"
+        },
+        {
+          "title": "Vidai Community is now available: one Rust binary for cost attribution, guardrails and multi-provider routing on every LLM call",
+          "author": "/u/Guna1260",
+          "link": "https://www.reddit.com/r/LangChain/comments/1truorq/vidai_community_is_now_available_one_rust_binary/",
+          "published": "2026-05-30 08:59:59",
+          "hours_ago": null,
+          "summary": "https://preview.redd.it/6tmm2a96p84h1.png?width=1200&amp;format=png&amp;auto=webp&amp;s=29fe8562144c50df154125ea5722379799bb506d Cost control on LLM traffic isn't an unsolved problem. Most teams I see have already wired up some version of it \u2014 a library for SDK translation, a custom OpenTelemetry ex"
+        },
+        {
+          "title": "How do you get into AI work when your strongest AI skills were built outside a formal tech job?",
+          "author": "/u/LilithAphroditis",
+          "link": "https://www.reddit.com/r/LangChain/comments/1trmjcm/how_do_you_get_into_ai_work_when_your_strongest/",
+          "published": "2026-05-30 01:56:51",
+          "hours_ago": null,
+          "summary": "I\u2019m in a strange professional in-between, and I\u2019m trying to understand what this path is even called. I\u2019m based in Brazil, and my formal career is in hospital psychology. On paper, my role is mostly expected to be emotional support inside a hospital setting. That work matters, of course, but over ti"
+        },
+        {
+          "title": "[ Removed by Reddit ]",
+          "author": "/u/sickdotdev",
+          "link": "https://www.reddit.com/r/LangChain/comments/1trhriw/removed_by_reddit/",
+          "published": "2026-05-29 22:26:58",
+          "hours_ago": null,
+          "summary": "[ Removed by Reddit on account of violating the content policy. ] submitted by /u/sickdotdev [link] [comments]"
+        },
+        {
+          "title": "PSA: langship.app and langship.sh are very different products",
+          "author": "/u/Vedantagarwal120",
+          "link": "https://www.reddit.com/r/LangChain/comments/1tr3zhv/psa_langshipapp_and_langshipsh_are_very_different/",
+          "published": "2026-05-29 14:42:00",
+          "hours_ago": null,
+          "summary": "Spent the last 20 minutes confused because people on X and Reddit kept mentioning \"LangShip\" but the screenshots, features, and positioning all looked completely different. Turns out there are two separate things owned by different people: langship.sh: Open-source deployment and infrastructure layer"
+        },
+        {
+          "title": "Can Ai help me to remove that Mouse to My soup",
+          "author": "/u/PronenTrick",
+          "link": "https://www.reddit.com/r/LangChain/comments/1trfaxl/can_ai_help_me_to_remove_that_mouse_to_my_soup/",
+          "published": "2026-05-29 20:52:55",
+          "hours_ago": null,
+          "summary": "Help Me submitted by /u/PronenTrick [link] [comments]"
+        },
+        {
+          "title": "Using an agent to go from unstructured pharmaceutical documents to a knowledge graph (with the right harness)",
+          "author": "/u/aiprod",
+          "link": "https://www.reddit.com/r/LangChain/comments/1tr0io9/using_an_agent_to_go_from_unstructured/",
+          "published": "2026-05-29 12:35:36",
+          "hours_ago": null,
+          "summary": "submitted by /u/aiprod [link] [comments]"
+        }
+      ]
+    }
+  }
+}
