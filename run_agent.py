@@ -4279,6 +4279,8 @@ class AIAgent:
                     for event in stream:
                         if self._interrupt_requested:
                             break
+                        if getattr(self, "_repetition_detected", False):
+                            break
                         event_type = getattr(event, "type", "")
                         # Fire callbacks on text content deltas (suppress during tool calls)
                         if "output_text.delta" in event_type or event_type == "response.output_text.delta":
@@ -4761,6 +4763,55 @@ class AIAgent:
     def _reset_stream_delivery_tracking(self) -> None:
         """Reset tracking for text delivered during the current model response."""
         self._current_streamed_assistant_text = ""
+        self._repetition_detected = False
+
+    @staticmethod
+    def _detect_and_truncate_repetition(text: str, min_repeats: int = 10) -> tuple:
+        """Detect consecutive identical lines and truncate if found.
+
+        Returns (truncated_text, was_truncated).
+        If the last ``min_repeats`` or more lines are all identical, the text
+        is truncated at the start of the repetition run and a note is appended.
+        """
+        if not isinstance(text, str) or not text:
+            return text, False
+
+        lines = text.split("\n")
+        # Strip trailing empty lines (from trailing newlines) so they don't
+        # mask a repetition run at the end of the text.
+        while lines and not lines[-1]:
+            lines.pop()
+
+        if len(lines) < min_repeats:
+            return text, False
+
+        # Check from the end: find the longest run of identical trailing lines
+        # Walk backwards to find where the repetition run starts
+        last_line = lines[-1]
+        if not last_line.strip():
+            # Don't trigger on trailing empty/whitespace-only lines
+            return text, False
+
+        run_start = len(lines) - 1
+        while run_start > 0 and lines[run_start - 1] == last_line:
+            run_start -= 1
+
+        run_length = len(lines) - run_start
+        if run_length >= min_repeats:
+            # Truncate: keep lines before the repetition, add note
+            kept_lines = lines[:run_start]
+            truncated_text = "\n".join(kept_lines)
+            if truncated_text and not truncated_text.endswith("\n"):
+                truncated_text += "\n"
+            truncated_text += "[output truncated: repetition detected]"
+            logger.warning(
+                "Repetition detected: %d consecutive identical lines (%r) — truncated output",
+                run_length,
+                last_line[:80],
+            )
+            return truncated_text, True
+
+        return text, False
 
     def _record_streamed_assistant_text(self, text: str) -> None:
         """Accumulate visible assistant text emitted through stream callbacks."""
@@ -4768,6 +4819,14 @@ class AIAgent:
             self._current_streamed_assistant_text = (
                 getattr(self, "_current_streamed_assistant_text", "") + text
             )
+            # Early detection during streaming: if repetition is found, set flag
+            # so the streaming loop can abort and save tokens.
+            if not getattr(self, "_repetition_detected", False):
+                _, was_truncated = self._detect_and_truncate_repetition(
+                    self._current_streamed_assistant_text
+                )
+                if was_truncated:
+                    self._repetition_detected = True
 
     @staticmethod
     def _normalize_interim_visible_text(text: str) -> str:
@@ -4962,6 +5021,10 @@ class AIAgent:
                 if self._interrupt_requested:
                     break
 
+                # Early abort: repetition detector flagged the output during streaming
+                if getattr(self, "_repetition_detected", False):
+                    break
+
                 if not chunk.choices:
                     if hasattr(chunk, "model") and chunk.model:
                         model_name = chunk.model
@@ -5135,6 +5198,9 @@ class AIAgent:
                     last_chunk_time["t"] = time.time()
 
                     if self._interrupt_requested:
+                        break
+
+                    if getattr(self, "_repetition_detected", False):
                         break
 
                     event_type = getattr(event, "type", None)
@@ -6301,9 +6367,15 @@ class AIAgent:
                 except Exception:
                     pass
 
+        # Repetition detection safety net: truncate content if the model got
+        # stuck in a loop (e.g., "1.4\n1.4\n1.4\n..." for 250+ lines).
+        # This catches all paths (streaming, non-streaming, tool-call, final).
+        raw_content = assistant_message.content or ""
+        content, _was_truncated = self._detect_and_truncate_repetition(raw_content)
+
         msg = {
             "role": "assistant",
-            "content": assistant_message.content or "",
+            "content": content,
             "reasoning": reasoning_text,
             "finish_reason": finish_reason,
         }

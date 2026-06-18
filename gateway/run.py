@@ -2547,6 +2547,18 @@ class GatewayRunner:
                 logger.info("HARD STOP for session %s — suspended, session lock released", _quick_key[:20])
                 return "⚡ Force-stopped. The session is suspended — your next message will start fresh."
 
+            # /cancel interrupts the running agent without suspending the session.
+            if _cmd_def_inner and _cmd_def_inner.name == "cancel":
+                running_agent = self._running_agents.get(_quick_key)
+                if running_agent and running_agent is not _AGENT_PENDING_SENTINEL:
+                    running_agent.interrupt("/cancel")
+                    logger.info("CANCEL for session %s — agent interrupted", _quick_key[:20])
+                    return "⏹ Cancelled."
+                elif running_agent is _AGENT_PENDING_SENTINEL:
+                    return "⏹ Cancelled. The agent was still starting."
+                else:
+                    return "No active task to cancel."
+
             # /reset and /new must bypass the running-agent guard so they
             # actually dispatch as commands instead of being queued as user
             # text (which would be fed back to the agent with the same
@@ -2681,6 +2693,9 @@ class GatewayRunner:
         
         if canonical == "stop":
             return await self._handle_stop_command(event)
+        
+        if canonical == "cancel":
+            return await self._handle_cancel_command(event)
         
         if canonical == "reasoning":
             return await self._handle_reasoning_command(event)
@@ -4133,6 +4148,26 @@ class GatewayRunner:
             return "⚡ Force-stopped. Your next message will start a fresh session."
         else:
             return "No active task to stop."
+
+    async def _handle_cancel_command(self, event: MessageEvent) -> str:
+        """Handle /cancel command - cancel the current agent turn.
+
+        Unlike /stop, this does not suspend the session or force-clean locks.
+        It simply interrupts the agent's current generation.
+        """
+        source = event.source
+        session_entry = self.session_store.get_or_create_session(source)
+        session_key = session_entry.session_key
+
+        agent = self._running_agents.get(session_key)
+        if agent is _AGENT_PENDING_SENTINEL:
+            return "⏹ Cancelled. The agent was still starting."
+        if agent:
+            agent.interrupt("/cancel")
+            logger.info("CANCEL for session %s — agent interrupted", session_key[:20])
+            return "⏹ Cancelled."
+        else:
+            return "No active task to cancel."
 
     async def _handle_restart_command(self, event: MessageEvent) -> str:
         """Handle /restart command - drain active work, then restart the gateway."""
