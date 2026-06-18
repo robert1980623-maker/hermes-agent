@@ -1313,6 +1313,34 @@ def refresh_launchd_plist_if_needed() -> bool:
     return True
 
 
+
+def _wait_for_launchd_unload(label: str, domain: str, timeout: float = 30.0, interval: float = 0.25) -> bool:
+    """Poll launchctl print until a service is no longer loaded.
+
+    launchd's KeepAlive agents get respawned almost immediately after bootout,
+    so a naive bootout/bootstrap sequence races with the respawn. This helper
+    gives launchd a chance to fully settle so the subsequent bootstrap call
+    does not hit EBUSY (exit 5).
+
+    Returns True once the service is reported as unloaded, or False if the
+    timeout elapses first.
+    """
+    import time as _time
+    deadline = _time.monotonic() + timeout
+    while _time.monotonic() < deadline:
+        result = subprocess.run(
+            ["launchctl", "print", f"{domain}/{label}"],
+            check=False,
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+        if result.returncode != 0 or "Could not find service" in (result.stderr or ""):
+            return True
+        _time.sleep(interval)
+    return False
+
+
 def launchd_install(force: bool = False):
     plist_path = get_launchd_plist_path()
     
@@ -1329,8 +1357,29 @@ def launchd_install(force: bool = False):
     plist_path.parent.mkdir(parents=True, exist_ok=True)
     print(f"Installing launchd service to: {plist_path}")
     plist_path.write_text(generate_launchd_plist())
-    
-    subprocess.run(["launchctl", "bootstrap", _launchd_domain(), str(plist_path)], check=True, timeout=30)
+
+    label = get_launchd_label()
+    domain = _launchd_domain()
+    # Bootout any existing service so launchd picks up the rewritten plist
+    # immediately. Without this, launchctl bootstrap returns exit code 5
+    # (Input/output error) when the service is already loaded, which makes
+    # `hermes gateway install --force` crash on every re-run.
+    subprocess.run(
+        ["launchctl", "bootout", f"{domain}/{label}"],
+        check=False,
+        timeout=90,
+    )
+    # KeepAlive services trigger launchd to immediately restart after bootout.
+    # If we bootstrap during that transition window, launchd returns EBUSY
+    # (exit 5) and the new plist never gets loaded. Poll until the service
+    # is fully unloaded before bootstrapping.
+    if not _wait_for_launchd_unload(label, domain):
+        raise subprocess.CalledProcessError(
+            5,
+            ["launchctl", "bootout", f"{domain}/{label}"],
+            "service did not unload within 30s",
+        )
+    subprocess.run(["launchctl", "bootstrap", domain, str(plist_path)], check=True, timeout=30)
     
     print()
     print("✓ Service installed and loaded!")

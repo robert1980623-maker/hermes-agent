@@ -215,6 +215,101 @@ class TestLaunchdServiceRecovery:
             ["launchctl", "bootstrap", domain, str(plist_path)],
         ]
 
+    def test_launchd_install_with_force_bootouts_before_bootstrap(self, tmp_path, monkeypatch):
+        """Re-running install --force on a loaded service must bootout first.
+
+        Without the bootout step, launchctl bootstrap returns exit code 5
+        (Input/output error) because the service is already loaded, which
+        causes the whole install --force flow to crash.
+        """
+        plist_path = tmp_path / "ai.hermes.gateway.plist"
+        plist_path.write_text("<plist>old content</plist>", encoding="utf-8")
+
+        monkeypatch.setattr(gateway_cli, "get_launchd_plist_path", lambda: plist_path)
+        monkeypatch.setattr(
+            gateway_cli, "generate_launchd_plist", lambda: "<plist>new content</plist>"
+        )
+
+        calls = []
+
+        def fake_run(cmd, check=False, **kwargs):
+            calls.append(cmd)
+            return SimpleNamespace(returncode=0, stdout="", stderr="")
+
+        monkeypatch.setattr(gateway_cli.subprocess, "run", fake_run)
+        # Pretend launchd settled immediately so the test does not need to wait
+        # for the real 0.25s poll loop.
+        monkeypatch.setattr(
+            gateway_cli, "_wait_for_launchd_unload",
+            lambda label, domain, timeout=30.0, interval=0.25: True,
+        )
+
+        gateway_cli.launchd_install(force=True)
+
+        label = gateway_cli.get_launchd_label()
+        domain = gateway_cli._launchd_domain()
+        # bootout must run before bootstrap so the existing service is unloaded
+        assert ["launchctl", "bootout", f"{domain}/{label}"] in calls
+        bootstrap_idx = calls.index(["launchctl", "bootstrap", domain, str(plist_path)])
+        bootout_idx = calls.index(["launchctl", "bootout", f"{domain}/{label}"])
+        assert bootout_idx < bootstrap_idx
+        # Plist should be rewritten with the new content
+        assert plist_path.read_text(encoding="utf-8") == "<plist>new content</plist>"
+
+    def test_launchd_install_with_force_waits_for_unload_before_bootstrap(
+        self, tmp_path, monkeypatch
+    ):
+        """install --force must wait for bootout to fully settle before bootstrap.
+
+        launchd will respawn KeepAlive agents almost immediately after bootout,
+        so a naive bootout/bootstrap sequence races with the respawn and
+        returns EBUSY (exit 5). The fix polls launchctl print until the
+        service is gone before bootstrapping.
+        """
+        plist_path = tmp_path / "ai.hermes.gateway.plist"
+        plist_path.write_text("<plist>old content</plist>", encoding="utf-8")
+
+        monkeypatch.setattr(gateway_cli, "get_launchd_plist_path", lambda: plist_path)
+        monkeypatch.setattr(
+            gateway_cli, "generate_launchd_plist", lambda: "<plist>new content</plist>"
+        )
+
+        # Two-phase fake: first the unload-wait poll sees a loaded service,
+        # then on the next poll it is gone. The final bootstrap must run only
+        # after the unload has settled.
+        poll_results = iter([
+            SimpleNamespace(returncode=0, stdout="", stderr=""),  # still loaded
+            SimpleNamespace(returncode=0, stdout="", stderr=""),  # still loaded
+            SimpleNamespace(returncode=3, stdout="", stderr="Could not find service"),  # gone
+        ])
+        calls = []
+
+        def fake_run(cmd, check=False, **kwargs):
+            calls.append(cmd)
+            if cmd[:2] == ["launchctl", "print"]:
+                return next(poll_results)
+            return SimpleNamespace(returncode=0, stdout="", stderr="")
+
+        monkeypatch.setattr(gateway_cli.subprocess, "run", fake_run)
+        # Expose calls on the function for the assertions below
+        fake_run.calls = calls
+        # Speed up the poll so the test stays fast.
+        monkeypatch.setattr(gateway_cli, "_wait_for_launchd_unload",
+                            lambda label, domain, timeout=30.0, interval=0.25: True)
+
+        gateway_cli.launchd_install(force=True)
+
+        label = gateway_cli.get_launchd_label()
+        domain = gateway_cli._launchd_domain()
+        # The exact sequence we want: bootout -> (unload settled) -> bootstrap
+        assert ["launchctl", "bootout", f"{domain}/{label}"] in fake_run.calls
+        bootstrap_idx = next(
+            i for i, c in enumerate(fake_run.calls)
+            if c[:2] == ["launchctl", "bootstrap"]
+        )
+        bootout_idx = fake_run.calls.index(["launchctl", "bootout", f"{domain}/{label}"])
+        assert bootout_idx < bootstrap_idx
+
     def test_launchd_start_reloads_unloaded_job_and_retries(self, tmp_path, monkeypatch):
         plist_path = tmp_path / "ai.hermes.gateway.plist"
         plist_path.write_text(gateway_cli.generate_launchd_plist(), encoding="utf-8")
